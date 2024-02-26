@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import daisyui from "daisyui";
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -14,5 +16,19 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography"), daisyui],
+  daisyui: {
+    themes: [
+      {
+        sensomx: {
+          "primary": "#19D6CB",
+          "primary-content": "#ffffff",
+          "secondary": "#14145E",
+          "secondary-content": "#ffffff",
+          "neutral": "#3D3D3D",
+          "text-primary": "#3D3D3D",
+        }
+      },
+    ],
+  },
 };
