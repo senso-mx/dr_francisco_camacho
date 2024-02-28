@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
 
 @layer base {
   html {
@@ -34,6 +33,26 @@
 
   .overlap-section {
     @apply section-container;
-    margin-top: -120px;
+    margin-top: -60px;
   }
+
+  .bg-jaime {
+    background-color: #eff6f5;
+  }
+
+
+}
+
+span.swiper-pagination-bullet {
+  height: 16px;
+  width: 16px;
+  background-color: #14145E !important;
+  opacity: 1;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #19D6CB !important;
+}
+
+:host >>> .swiper-pagination {
+  pointer-events: all !important;
 }

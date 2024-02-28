@@ -27,6 +27,8 @@ module.exports = {
           "secondary-content": "#ffffff",
           "neutral": "#3D3D3D",
           "text-primary": "#3D3D3D",
+          "bg-accent": "##EFF6F5",
+          "base-300": "#3D3D3D",
         }
       },
     ],
