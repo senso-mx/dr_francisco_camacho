@@ -11,35 +11,35 @@ import "swiper/css/pagination";
 const testimonials = [
   [
     {
-      author: "Gl G Cz",
+      author: "Lyzeth Ortega",
       message:
-        "¡¡Súper recomendado!! Un trato excepcional a mi persona, estuvo todo el tiempo pendiente de mi, antes, y después de mi cirugía. Y un resultado increíble; quede fascinada con su trabajo ⭐️⭐️⭐️⭐️⭐️",
+        "Excelente cirujano con conocimientos y habilidades admirables !!",
     },
     {
-      author: "Fernanda Uresti",
-      message: "Excelente dr! 💯 recomendado, 3 cirugías y un cambio total 🫶🏻",
+      author: "Sandra Ivette Mosqueda",
+      message: "El mejor cirujano del mundo mundial... 👍😁",
     },
   ],
   [
     {
-      author: "Gl G Cz",
+      author: "Celina Flores",
       message:
-        "¡¡Súper recomendado!! Un trato excepcional a mi persona, estuvo todo el tiempo pendiente de mi, antes, y después de mi cirugía. Y un resultado increíble; quede fascinada con su trabajo ⭐️⭐️⭐️⭐️⭐️",
+        "El mejor de lo mejor",
     },
     {
-      author: "Fernanda Uresti",
-      message: "Excelente dr! 💯 recomendado, 3 cirugías y un cambio total 🫶🏻",
+      author: "Sandra Ivette Mosqueda",
+      message: "El mejor cirujano.",
     },
   ],
   [
     {
-      author: "Gl G Cz",
+      author: "Karla Gonzalez",
       message:
-        "¡¡Súper recomendado!! Un trato excepcional a mi persona, estuvo todo el tiempo pendiente de mi, antes, y después de mi cirugía. Y un resultado increíble; quede fascinada con su trabajo ⭐️⭐️⭐️⭐️⭐️",
+        "Súper recomendado ☺️",
     },
     {
-      author: "Fernanda Uresti",
-      message: "Excelente dr! 💯 recomendado, 3 cirugías y un cambio total 🫶🏻",
+      author: "Rebeca Reyes",
+      message: "Recomendado 💯",
     },
   ],
 ];
