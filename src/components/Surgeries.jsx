@@ -1,33 +1,33 @@
 const SURGERIES = [
   {
-    title: "Implante de mamas",
-    image: "/images/implantesdemama.webp",
-    link: "",
+    title: "Microcirugía",
+    image: "/images/micro.webp",
+    link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
-    title: "Liposucción",
-    image: "/images/lipo.webp",
-    link: "",
+    title: "Cirugía Parálisis facial",
+    image: "/images/paralisis.webp",
+    link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
-    title: "Lifting Facial",
-    image: "/images/lifting.webp",
-    link: "",
+    title: "Cirugía Plexo braquial",
+    image: "/images/plexo.webp",
+    link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
-    title: "Aumento de Glúteos",
-    image: "/images/gluteos.webp",
-    link: "",
+    title: "Cirugía Nervio Periferico Hombro",
+    image: "/images/nervio.webp",
+    link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
-    title: "Abdominoplastia",
-    image: "/images/abdomino.webp",
-    link: "",
+    title: "Cirugía de nervio radial",
+    image: "/images/radial.webp",
+    link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
-    title: "Rinoplastia",
-    image: "/images/rino.webp",
-    link: "",
+    title: "Cirugía de nervio Mediano",
+    image: "/images/mediano.webp",
+    link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
 ];
 
@@ -52,7 +52,7 @@ export default function Surgeries() {
             <div className="absolute top-0 left-0 w-full h-full gradiente rounded-lg"></div>
             <h3 className="text-center text-white z-10">{surgery.title}</h3>
             <a
-              className="btn btn-secondary btn-sm px-12  z-10"
+              className="btn btn-neutral btn-sm px-12  z-10"
               href={surgery.link}
               target="_blank"
               rel="noopener noreferrer"

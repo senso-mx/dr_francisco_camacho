@@ -9,18 +9,16 @@ export default function CTABanner() {
           backgroundRepeat: "no-repeat !important",
           backgroundSize: "cover",
           backgroundColor: "transparent",
+          position: "relative"
         }}
       >
-        <article className="flex flex-col gap-4  w-full leading-tight pl-0 md:pl-16">
-          <h4 className="font-bold text-3xl max-w-96 text-white">
-            ¿Hacemos un cambio radical de imagen?
+        <div className="absolute top-0 left-0 w-full h-full gradiente-h rounded-lg"></div>
+        <article className="flex flex-col gap-4  w-full leading-tight pl-0 md:pl-16 z-10">
+          <h4 className="font-bold text-3xl text-white">
+            Atención especializada a tiempo, significa movilidad
           </h4>
-          <h6 className="max-w-lg text-lg leading-tight text-white">
-            Recreemos tu belleza con un Mommy Makeover, LipoAbdominoplastía o
-            algo especial sólo para tí.
-          </h6>
         </article>
-        <div className="flex flex-col w-full items-center md:items-end">
+        <div className="flex flex-col w-full items-center md:items-end z-10">
           <a
             className="btn btn-primary btn-wide md:btn-lg"
             href={process.env.NEXT_PUBLIC_WHATSAPP_LINK}

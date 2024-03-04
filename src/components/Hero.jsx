@@ -5,32 +5,47 @@ export default function Hero() {
     <section
       className="flex min-h-[90svh] h-full w-full"
       style={{
-        backgroundImage: "url(/images/hero.webp)",
+        backgroundImage: "url(/images/herobg.webp)",
         backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundColor: "transparent",
       }}
     >
-      <div className="section-container flex flex-row items-center min-h-full">
-        <div className="prose-lg flex flex-col justify-center items-center md:items-start w-full gap-4">
-          <Image src="/images/emblema.svg" alt="logo" width={92} height={182} />
+      <div className="section-container flex flex-row flex-wrap md:flex-nowrap items-center min-h-full">
+        <div className="prose-lg flex flex-col justify-center items-center md:items-start w-full gap-4 h-fit my-8 md:h-full">
+          <Image src="/images/logo.webp" alt="logo" width={140} height={140} />
           <div className="flex flex-col gap-0">
-            <h1 className="font-bold border-b-2 border-b-neutral-800 pb-6 m-0">
+            <h1 className="font-bold border-b-2 border-b-white pb-6 m-0 text-white">
               Dr. Jaime Zermeño
             </h1>
-            <h3 className="m-0 italic">
+            <h3 className="m-0 italic text-white">
               Cirujano Plástico Certificado en Zapopan
             </h3>
           </div>
-          <p className="leading-tight">
-            +18 años recreando la belleza y reconstruyendo
-            <br />
-            la calidad de vida de mis pacientes.
+          <p className="leading-tight text-white">
+            Reconstruimos la calidad de vida con Microcirugía
+            <br /> y atención a nervio periférico.
           </p>
           <button className="btn btn-primary btn-lg">Cita por Whatsapp</button>
         </div>
-        {/* <div className="flex justify-start items-center w-full h-full">B</div> */}
+        <div className="flex justify-start items-center w-full h-fit my-8 md:h-full">
+          <Image
+            className="mx-auto md:ml-0 rounded-lg aspect-auto[190/221]"
+            src="images/hero.webp"
+            alt="Doctor"
+            width={516}
+            height={600}
+          />
+        </div>
+      </div>
+      <div
+        className="whats"
+        component="a"
+        href={process.env.WALINK}
+        target="_blank"
+      >
+        <Image src="images/walogo.svg" className="waicon" width={25} height={25} alt="WhatsApp Icon" />
       </div>
     </section>
   );
