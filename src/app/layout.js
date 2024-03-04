@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es" data-theme="sensomx" className={montserrat.className}>
       <Head>
-        <link rel="preload" href="/images/hero.webp" as="image" />
+        <link rel="preload" href={`${process.env.BASE_PATH || ''}/images/hero.webp`} as="image" />
       </Head>
       <body>{children}</body>
 

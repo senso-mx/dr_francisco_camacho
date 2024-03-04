@@ -25,7 +25,7 @@ export default function CTASplit() {
           <div className="w-full md:w-1/2 p-8">
             <Image
               className="mx-auto md:ml-0 rounded-lg aspect-auto[152/101]"
-              src="images/cta.webp"
+              src={`${process.env.BASE_PATH || ''}/images/cta.webp`}
               alt="Doctor"
               width={608}
               height={404}

@@ -1,32 +1,32 @@
 const SURGERIES = [
   {
     title: "Implante de mamas",
-    image: "/images/implantesdemama.webp",
+    image: `${process.env.BASE_PATH || ''}/images/implantesdemama.webp`,
     link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Liposucción",
-    image: "/images/lipo.webp",
+    image: `${process.env.BASE_PATH || ''}/images/lipo.webp`,
     link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Lifting Facial",
-    image: "/images/lifting.webp",
+    image: `${process.env.BASE_PATH || ''}/images/lifting.webp`,
     link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Aumento de Glúteos",
-    image: "/images/gluteos.webp",
+    image: `${process.env.BASE_PATH || ''}/images/gluteos.webp`,
     link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Abdominoplastia",
-    image: "/images/abdomino.webp",
+    image: `${process.env.BASE_PATH || ''}/images/abdomino.webp`,
     link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Rinoplastia",
-    image: "/images/rino.webp",
+    image: `${process.env.BASE_PATH || ''}/images/rino.webp`,
     link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
 ];
