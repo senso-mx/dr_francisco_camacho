@@ -11,7 +11,6 @@ const nextConfig = {
   trailingSlash: true,
   images: { unoptimized: true },
   env: {
-    NEXT_PUBLIC_DR_NAME: "Dr. Jaime Zermeno",
     NEXT_PUBLIC_SITE_TITLE:
       "Dr. Jaime Zermeno - Cirujano Plástico Certificado en Zapopan",
     NEXT_PUBLIC_WHATSAPP_LINK:
