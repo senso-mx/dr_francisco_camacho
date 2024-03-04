@@ -18,7 +18,6 @@ const nextConfig = {
       "https://api.whatsapp.com/send?phone=+5299999999&text=%C2%A1Hola%21%20quiero%20agendar%20una%20cita%20con%20el%20Dr.%20Jaime%20Zermeño",
     NEXT_PUBLIC_PHONE: "+5299999999",
     NEXT_PUBLIC_WAPHONE: "+5299999999",
-    NEXT_PUBLIC_TAG_MANAGER: "GTM-TJTLMX3V",
   },
   webpack: (config, { dev, isServer }) => {
     if (isServer || dev) {

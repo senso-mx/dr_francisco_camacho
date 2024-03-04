@@ -22,13 +22,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es" data-theme="sensomx" className={montserrat.className}>
       <Head>
-        <link rel="preload" href={`${process.env.BASE_PATH || ''}/images/hero.webp`} as="image" />
+        <link
+          rel="preload"
+          href={`${process.env.BASE_PATH || ""}/images/hero.webp`}
+          as="image"
+        />
       </Head>
       <body>{children}</body>
 
-      {process.env.NEXT_PUBLIC_TAG_MANAGER ? (
-        <GoogleTagManager gaId={process.env.NEXT_PUBLIC_TAG_MANAGER} />
-      ) : null}
+      <GoogleTagManager gaId="GTM-TJTLMX3V" />
     </html>
   );
 }
