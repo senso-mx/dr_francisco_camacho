@@ -6,19 +6,19 @@ const LOGOS = [
     title: "UACH",
   },
   {
-    image: `${process.env.BASE_PATH || ''}/"images/logos/udg.webp`,
+    image: `${process.env.BASE_PATH || ''}/images/logos/udg.webp`,
     title: "UDG",
   },
   {
-    image: `${process.env.BASE_PATH || ''}/"images/logos/assh.webp`,
+    image: `${process.env.BASE_PATH || ''}/images/logos/assh.webp`,
     title: "ASSH",
   },
   {
-    image: `${process.env.BASE_PATH || ''}/"images/logos/aspn.webp`,
+    image: `${process.env.BASE_PATH || ''}/images/logos/aspn.webp`,
     title: "ASPN",
   },
   {
-    image: `${process.env.BASE_PATH || ''}/"images/logos/cmcp.webp`,
+    image: `${process.env.BASE_PATH || ''}/images/logos/cmcp.webp`,
     title: "CMCP",
   },
 ];
