@@ -3,10 +3,9 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section
-      className="flex min-h-[90svh] h-full w-full"
+      className="flex min-h-[90svh] h-full w-full bg-right md:bg-center"
       style={{
         backgroundImage: `url(${process.env.BASE_PATH || ''}/images/hero.webp)`,
-        backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundColor: "transparent",
@@ -16,16 +15,16 @@ export default function Hero() {
         <div className="prose-lg flex flex-col justify-center items-center md:items-start w-full gap-4">
           <Image src={`${process.env.BASE_PATH || ''}/images/emblema.svg`} alt="logo" width={92} height={182} />
           <div className="flex flex-col gap-0">
-            <h1 className="font-bold border-b-2 border-b-neutral-800 pb-6 m-0">
+            <h1 className="font-bold border-b-2 border-b-neutral-800 pb-6 m-0 text-center md:text-left text-4xl md:text-5xl">
               Dr. Jaime Zermeño
             </h1>
-            <h3 className="m-0 italic">
+            <h3 className="m-0 italic text-center md:text-left text-lg md:text-xl">
               Cirujano Plástico Certificado en Zapopan
             </h3>
           </div>
-          <p className="leading-tight">
+          <p className="leading-tight text-center md:text-left">
             +18 años recreando la belleza y reconstruyendo
-            <br />
+            <br className="hidden md:block"/>
             la calidad de vida de mis pacientes.
           </p>
           <button className="btn btn-primary btn-lg">Cita por Whatsapp</button>
