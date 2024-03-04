@@ -5,7 +5,7 @@ export default function Hero() {
     <section
       className="flex min-h-[90svh] h-full w-full"
       style={{
-        backgroundImage: `url(${process.env.BASE_PATH || ''}/images/herobg.webp)`,
+        backgroundImage: `url(${process.env.BASE_PATH || ''}/images/hero.webp)`,
         backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
