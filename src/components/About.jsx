@@ -2,24 +2,24 @@ import Image from "next/image";
 
 const LOGOS = [
   {
-    image: "images/logos/uach.webp",
-    title: "Exportable code 1",
+    image: `${process.env.BASE_PATH || ''}/images/logos/uach.webp`,
+    title: "UACH",
   },
   {
-    image: "images/logos/udg.webp",
-    title: "Exportable code 2",
+    image: `${process.env.BASE_PATH || ''}/"images/logos/udg.webp`,
+    title: "UDG",
   },
   {
-    image: "images/logos/assh.webp",
-    title: "Exportable code 3",
+    image: `${process.env.BASE_PATH || ''}/"images/logos/assh.webp`,
+    title: "ASSH",
   },
   {
-    image: "images/logos/aspn.webp",
-    title: "Exportable code 4",
+    image: `${process.env.BASE_PATH || ''}/"images/logos/aspn.webp`,
+    title: "ASPN",
   },
   {
-    image: "images/logos/cmcp.webp",
-    title: "Exportable code 5",
+    image: `${process.env.BASE_PATH || ''}/"images/logos/cmcp.webp`,
+    title: "CMCP",
   },
 ];
 
@@ -31,7 +31,7 @@ export default function About() {
           <div className="w-full md:w-1/2 p-8">
             <Image
               className="mx-auto md:ml-0 rounded-lg aspect-auto[760/871]"
-              src="images/about.webp"
+              src={`${process.env.BASE_PATH || ''}/images/about.webp`}
               alt="Doctor"
               width={608}
               height={697}

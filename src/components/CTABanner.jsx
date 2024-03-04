@@ -4,7 +4,7 @@ export default function CTABanner() {
       <div
         className="flex flex-col md:flex-row items-center justify-start min-h-80 rounded-lg p-8 gap-8 md:gap-0 aspect-auto[380/79]"
         style={{
-          background: `url(/images/ctabanner.webp)`,
+          background: `url(${process.env.BASE_PATH || ''}/images/ctabanner.webp)`,
           backgroundPosition: "center center",
           backgroundRepeat: "no-repeat !important",
           backgroundSize: "cover",

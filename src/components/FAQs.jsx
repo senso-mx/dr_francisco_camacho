@@ -35,7 +35,7 @@ export default function FAQs() {
           <div className="w-full md:w-1/2 p-4">
             <Image
               className="mx-auto md:mr-0 rounded-lg aspect-auto[87/91]"
-              src="images/faqsbg.webp"
+              src={`${process.env.BASE_PATH || ''}/images/faqsbg.webp`}
               alt="Preguntas Frecuentes"
               height={608}
               width={635}

@@ -5,7 +5,7 @@ export default function Hero() {
     <section
       className="flex min-h-[90svh] h-full w-full"
       style={{
-        backgroundImage: "url(/images/herobg.webp)",
+        backgroundImage: `url(${process.env.BASE_PATH || ''}/images/herobg.webp)`,
         backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
@@ -14,7 +14,7 @@ export default function Hero() {
     >
       <div className="section-container flex flex-row flex-wrap md:flex-nowrap items-center min-h-full">
         <div className="prose-lg flex flex-col justify-center items-center md:items-start w-full gap-4 h-fit my-8 md:h-full">
-          <Image src="/images/logo.webp" alt="logo" width={140} height={140} />
+          <Image src={`${process.env.BASE_PATH || ''}/images/logo.webp`} alt="logo" width={140} height={140} />
           <div className="flex flex-col gap-0">
             <h1 className="font-bold border-b-2 border-b-white pb-6 m-0 text-white">
               Dr. Jaime Zermeño
@@ -32,7 +32,7 @@ export default function Hero() {
         <div className="flex justify-start items-center w-full h-fit my-8 md:h-full">
           <Image
             className="mx-auto md:ml-0 rounded-lg aspect-auto[190/221]"
-            src="images/hero.webp"
+            src={`${process.env.BASE_PATH || ''}/images/hero.webp`}
             alt="Doctor"
             width={516}
             height={600}
@@ -42,10 +42,10 @@ export default function Hero() {
       <div
         className="whats"
         component="a"
-        href={process.env.WALINK}
+        href={process.env.NEXT_PUBLIC_WHATSAPP_LINK}
         target="_blank"
       >
-        <Image src="images/walogo.svg" className="waicon" width={25} height={25} alt="WhatsApp Icon" />
+        <Image src={`${process.env.BASE_PATH || ''}/images/walogo.svg`} className="waicon" width={25} height={25} alt="WhatsApp Icon" />
       </div>
     </section>
   );

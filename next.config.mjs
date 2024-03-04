@@ -2,11 +2,12 @@
 import webpack from "webpack";
 
 // WEB PACK PLUGINS
-import OptimizeCSSAssetsPlugin from  "optimize-css-assets-webpack-plugin"
-import BrotliPlugin from  'brotli-webpack-plugin'
+import OptimizeCSSAssetsPlugin from "optimize-css-assets-webpack-plugin";
+import BrotliPlugin from "brotli-webpack-plugin";
 
 const nextConfig = {
-  basePath: "/cirujano-reconstructivo-en-zapopan",
+  basePath: process.env.BASE_PATH || "",
+  assetPrefix: process.env.BASE_PATH || "",
   output: "export",
   trailingSlash: true,
   images: { unoptimized: true },

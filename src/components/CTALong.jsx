@@ -4,7 +4,7 @@ export default function CTALong() {
       <div
         className="container mx-auto py-6 pb-12 rounded-lg aspect-auto[380/79] h-80"
         style={{
-          backgroundImage: "url(/images/herobg.webp)",
+          backgroundImage: `url(${process.env.BASE_PATH || ''}/images/herobg.webp)`,
           backgroundPosition: "center center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",

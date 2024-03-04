@@ -1,32 +1,32 @@
 const SURGERIES = [
   {
     title: "Microcirugía",
-    image: "/images/micro.webp",
+    image: `${process.env.BASE_PATH || ''}/images/micro.webp`,
     link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Cirugía Parálisis facial",
-    image: "/images/paralisis.webp",
+    image: `${process.env.BASE_PATH || ''}/images/paralisis.webp`,
     link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Cirugía Plexo braquial",
-    image: "/images/plexo.webp",
+    image: `${process.env.BASE_PATH || ''}/images/plexo.webp`,
     link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Cirugía Nervio Periferico Hombro",
-    image: "/images/nervio.webp",
+    image: `${process.env.BASE_PATH || ''}/images/nervio.webp`,
     link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Cirugía de nervio radial",
-    image: "/images/radial.webp",
+    image: `${process.env.BASE_PATH || ''}/images/radial.webp`,
     link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Cirugía de nervio Mediano",
-    image: "/images/mediano.webp",
+    image: `${process.env.BASE_PATH || ''}/images/mediano.webp`,
     link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
 ];
