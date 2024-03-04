@@ -6,19 +6,19 @@ const LOGOS = [
     title: "UACH",
   },
   {
-    image: `${process.env.BASE_PATH || ''}/"images/logos/udg.webp`,
+    image: `${process.env.BASE_PATH || ''}/images/logos/udg.webp`,
     title: "UDG",
   },
   {
-    image: `${process.env.BASE_PATH || ''}/"images/logos/assh.webp`,
+    image: `${process.env.BASE_PATH || ''}/images/logos/assh.webp`,
     title: "ASSH",
   },
   {
-    image: `${process.env.BASE_PATH || ''}/"images/logos/aspn.webp`,
+    image: `${process.env.BASE_PATH || ''}/images/logos/aspn.webp`,
     title: "ASPN",
   },
   {
-    image: `${process.env.BASE_PATH || ''}/"images/logos/cmcp.webp`,
+    image: `${process.env.BASE_PATH || ''}/images/logos/cmcp.webp`,
     title: "CMCP",
   },
 ];
@@ -27,7 +27,7 @@ export default function About() {
   return (
     <section className="section-container">
       <div className="container mx-auto py-6">
-        <div className="flex flex-wrap -m-8">
+        <div className="flex flex-wrap-reverse -m-8">
           <div className="w-full md:w-1/2 p-8">
             <Image
               className="mx-auto md:ml-0 rounded-lg aspect-auto[760/871]"
@@ -40,11 +40,11 @@ export default function About() {
           <div className="w-full md:w-1/2 p-8">
             <div className="lg:max-w-xlg">
               <div className="flex flex-col gap-0 prose">
-                <h4 className="text-3xl font-bold border-b-2 border-b-neutral-800 pb-1 m-0 md:max-w-md">
+                <h4 className="text-3xl font-bold border-b-2 border-b-neutral-800 pb-1 m-0 md:max-w-md text-center md:text-left">
                   Dr. Jaime Zermeño
                 </h4>
-                <h6 className="m-0 leading-tight font-semibold">
-                  Cirujano Plástico certificado, con Sub especialidad en<br/>
+                <h6 className="m-0 leading-tight font-semibold text-center md:text-left">
+                  Cirujano Plástico certificado, con Sub especialidad en {' '}<br className="hidden md:block"/>
                   Microcirugía y Nervio Periférico
                 </h6>
               </div>

@@ -14,7 +14,7 @@ export default function CTABanner() {
       >
         <div className="absolute top-0 left-0 w-full h-full gradiente-h rounded-lg"></div>
         <article className="flex flex-col gap-4  w-full leading-tight pl-0 md:pl-16 z-10">
-          <h4 className="font-bold text-3xl text-white">
+          <h4 className="font-bold text-2xl md:text-3xl text-white text-center md:text-left">
             Atención especializada a tiempo, significa movilidad
           </h4>
         </article>
