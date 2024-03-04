@@ -32,6 +32,14 @@ export default function Hero() {
         </div>
         {/* <div className="flex justify-start items-center w-full h-full">B</div> */}
       </div>
+      <div
+        className="whats"
+        component="a"
+        href={process.env.WALINK}
+        target="_blank"
+      >
+        <Image src="images/walogo.svg" className="waicon" width={25} height={25} alt="WhatsApp Icon" />
+      </div>
     </section>
   );
 }

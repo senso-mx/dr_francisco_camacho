@@ -72,7 +72,7 @@ export default function About() {
               </p>
               <div className="flex flex-wrap md:flex-nowrap -m-2 justify-center gap-4">
                 {LOGOS.map((item) => (
-                  <div className="w-1/2 md:w-full p-2" key={item.title}>
+                  <div className="w-28 md:w-full p-2" key={item.title}>
                     <Image
                       src={item.image}
                       alt={item.title}
