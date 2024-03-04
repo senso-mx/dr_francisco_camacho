@@ -46,16 +46,16 @@ const testimonials = [
 
 export default function Reviews() {
   return (
-    <section class="section-container">
-      <div class="mx-auto">
-        <div class="py-16 px-8 rounded-xl bg-jaime">
-          <div class="max-w-7xl mx-auto">
-            <div class="w-full mx-auto text-center">
-              <h2 class="font-heading mb-12 text-3xl md:text-4xl font-bold tracking-tight italic">
+    <section className="section-container">
+      <div className="mx-auto">
+        <div className="py-16 px-8 rounded-xl bg-jaime">
+          <div className="max-w-7xl mx-auto">
+            <div className="w-full mx-auto text-center">
+              <h2 className="font-heading mb-12 text-3xl md:text-4xl font-bold tracking-tight italic">
                 Historias que roban miradas
               </h2>
             </div>
-            <div class="flex flex-wrap -m-4">
+            <div className="flex flex-wrap -m-4">
               <Swiper
                 centeredSlides={false}
                 navigation={true}
@@ -69,24 +69,24 @@ export default function Reviews() {
               >
                 {testimonials.map((reviews, i) => (
                   <SwiperSlide key={i}>
-                    <div class="flex flex-row flex-wrap md:flex-nowrap gap-8 justify-center w-full md:max-w-4xl mx-auto mb-16">
-                      <div class="w-full">
-                        <div class="flex flex-col justify-between h-full text-center rounded-xl bg-white">
-                          <div class="flex-initial mb-8 px-8 pt-8">
-                            <p class="text-base italic">{reviews[0].message}</p>
+                    <div className="flex flex-row flex-wrap md:flex-nowrap gap-8 justify-center w-full md:max-w-4xl mx-auto mb-16">
+                      <div className="w-full">
+                        <div className="flex flex-col justify-between h-full text-center rounded-xl bg-white">
+                          <div className="flex-initial mb-8 px-8 pt-8">
+                            <p className="text-base italic">{reviews[0].message}</p>
                           </div>
-                          <div class="flex-initial bg-secondary rounded-b-xl p-2">
-                            <h6 class="text-white">{reviews[0].author}</h6>
+                          <div className="flex-initial bg-secondary rounded-b-xl p-2">
+                            <h6 className="text-white">{reviews[0].author}</h6>
                           </div>
                         </div>
                       </div>
-                      <div class="w-full">
-                        <div class="flex flex-col justify-between h-full text-center rounded-xl bg-white">
-                          <div class="flex-initial mb-8 px-8 pt-12 pb-8">
-                            <p class="text-base italic">{reviews[1].message}</p>
+                      <div className="w-full">
+                        <div className="flex flex-col justify-between h-full text-center rounded-xl bg-white">
+                          <div className="flex-initial mb-8 px-8 pt-12 pb-8">
+                            <p className="text-base italic">{reviews[1].message}</p>
                           </div>
-                          <div class="flex-initial bg-secondary rounded-b-xl p-2">
-                            <h6 class="text-white">{reviews[1].author}</h6>
+                          <div className="flex-initial bg-secondary rounded-b-xl p-2">
+                            <h6 className="text-white">{reviews[1].author}</h6>
                           </div>
                         </div>
                       </div>

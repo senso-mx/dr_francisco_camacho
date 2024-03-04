@@ -24,11 +24,11 @@ export default function CTASplit() {
           </div>
           <div className="w-full md:w-1/2 p-8">
             <Image
-              className="mx-auto md:ml-0 rounded-lg"
-              src="images/about.png"
+              className="mx-auto md:ml-0 rounded-lg aspect-auto[152/101]"
+              src="images/cta.webp"
               alt="Doctor"
-              width={332}
-              height={760}
+              width={608}
+              height={404}
             />
           </div>
         </div>

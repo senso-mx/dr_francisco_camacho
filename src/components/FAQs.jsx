@@ -29,29 +29,29 @@ const faqs = [
 
 export default function FAQs() {
   return (
-    <section class="py-6 overflow-hidden">
-      <div class="container mx-auto px-4">
-        <div class="flex flex-wrap -m-4">
-          <div class="w-full md:w-1/2 p-4">
+    <section className="py-6 overflow-hidden">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-wrap -m-4">
+          <div className="w-full md:w-1/2 p-4">
             <Image
-              className="mx-auto md:mr-0rounded-lg"
-              src="images/about.png"
+              className="mx-auto md:mr-0rounded-lg aspect-auto[87/91]"
+              src="images/implantes.webp"
               alt="Preguntas Frecuentes"
-              height={760}
-              width={760}
+              height={608}
+              width={635}
             />
           </div>
-          <div class="w-full md:w-1/2 p-4">
-            <div class="flex flex-col justify-start h-full pl-4 md:pl-8 lg:pl-12">
-              <div class="flex-initial mb-10">
-                <div class="md:max-w-lg">
-                  <h2 class="text-xl md:text-2xl lg:text-3xl font-bold tracking-tight border-b-2 border-b-neutral-800 w-fit mb-2 pb-2">
+          <div className="w-full md:w-1/2 p-4">
+            <div className="flex flex-col justify-start h-full pl-4 md:pl-8 lg:pl-12">
+              <div className="flex-initial mb-10">
+                <div className="md:max-w-lg">
+                  <h2 className="text-xl md:text-2xl lg:text-3xl font-bold tracking-tight border-b-2 border-b-neutral-800 w-fit mb-2 pb-2">
                     Preguntas Frecuentes
                   </h2>
                 </div>
               </div>
-              <div class="flex-initial">
-                <div class="flex flex-wrap -m-4 gap-2">
+              <div className="flex-initial">
+                <div className="flex flex-wrap -m-4 gap-2 w-full">
                   {faqs.map((faq, i) => (
                     <div
                       className="collapse collapse-arrow bg-base-300 text-white"

@@ -1,32 +1,32 @@
 const SURGERIES = [
   {
-    title: "Implabnte de mamas",
-    image: "/images/hero.webp",
+    title: "Implante de mamas",
+    image: "/images/implantesdemama.webp",
     link: "",
   },
   {
     title: "Liposucción",
-    image: "/images/hero.webp",
+    image: "/images/lipo.webp",
     link: "",
   },
   {
     title: "Lifting Facial",
-    image: "/images/hero.webp",
+    image: "/images/lifting.webp",
     link: "",
   },
   {
     title: "Aumento de Glúteos",
-    image: "/images/hero.webp",
+    image: "/images/gluteos.webp",
     link: "",
   },
   {
     title: "Abdominoplastia",
-    image: "/images/hero.webp",
+    image: "/images/abdomino.webp",
     link: "",
   },
   {
     title: "Rinoplastia",
-    image: "/images/hero.webp",
+    image: "/images/rino.webp",
     link: "",
   },
 ];
@@ -45,11 +45,14 @@ export default function Surgeries() {
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
               backgroundColor: "transparent",
+              aspectRatio : "16/9",
+              position: "relative"
             }}
           >
-            <h3 className="text-center text-white">{surgery.title}</h3>
+            <div className="absolute top-0 left-0 w-full h-full gradiente rounded-lg"></div>
+            <h3 className="text-center text-white z-10">{surgery.title}</h3>
             <a
-              className="btn btn-secondary btn-sm px-12"
+              className="btn btn-secondary btn-sm px-12  z-10"
               href={surgery.link}
               target="_blank"
               rel="noopener noreferrer"

@@ -7,6 +7,7 @@ import CTASplit from '@/components/CTASplit';
 import CTALong from '@/components/CTALong';
 import FAQs from '@/components/FAQs';
 import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <FAQs />
       <CTALong />
       <Contact />
+      <Footer />
     </main>
   );
 }

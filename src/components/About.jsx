@@ -1,40 +1,44 @@
+import Image from "next/image";
+
 const LOGOS = [
   {
-    image: "images/hero.webp",
+    image: "images/logos/uach.webp",
     title: "Exportable code 1",
   },
   {
-    image: "images/hero.webp",
+    image: "images/logos/udg.webp",
     title: "Exportable code 2",
   },
   {
-    image: "images/hero.webp",
+    image: "images/logos/assh.webp",
     title: "Exportable code 3",
   },
   {
-    image: "images/hero.webp",
+    image: "images/logos/aspn.webp",
     title: "Exportable code 4",
   },
   {
-    image: "images/hero.webp",
+    image: "images/logos/cmcp.webp",
     title: "Exportable code 5",
   },
 ];
 
 export default function About() {
   return (
-    <section class="section-container">
-      <div class="container mx-auto py-6">
-        <div class="flex flex-wrap -m-8">
-          <div class="w-full md:w-1/2 p-8">
-            <img
-              class="mx-auto md:ml-0 rounded-lg"
-              src="images/about.png"
+    <section className="section-container">
+      <div className="container mx-auto py-6">
+        <div className="flex flex-wrap -m-8">
+          <div className="w-full md:w-1/2 p-8">
+            <Image
+              className="mx-auto md:ml-0 rounded-lg aspect-auto[760/871]"
+              src="images/about.webp"
               alt="Doctor"
+              width={608}
+              height={697}
             />
           </div>
-          <div class="w-full md:w-1/2 p-8">
-            <div class="lg:max-w-xlg">
+          <div className="w-full md:w-1/2 p-8">
+            <div className="lg:max-w-xlg">
               <div className="flex flex-col gap-0 prose">
                 <h4 className="text-3xl font-bold border-b-2 border-b-neutral-800 pb-1 m-0 md:max-w-md">
                   Dr. Jaime Zermeño
@@ -44,7 +48,7 @@ export default function About() {
                   Microcirugía y Nervio Periférico
                 </h6>
               </div>
-              <p class="my-12">
+              <p className="my-12">
                 Médico Cirujano Plástico Certificado en Zapopan egresado de la
                 Universidad Autónoma de Chihuahua, con especialidad en{" "}
                 <strong>
@@ -66,11 +70,16 @@ export default function About() {
                 como lesiones traumáticas o compresiones nerviosas crónicas y
                 cirugía de mano.
               </p>
-              <div class="flex flex-wrap md:flex-nowrap -m-2 justify-center">
+              <div className="flex flex-wrap md:flex-nowrap -m-2 justify-center gap-4">
                 {LOGOS.map((item) => (
-                  <div class="w-1/2 md:w-full p-2" key={item.title}>
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={item.image} alt={item.title} className="w-auto" />
+                  <div className="w-1/2 md:w-full p-2" key={item.title}>
+                    <Image
+                      src={item.image}
+                      alt={item.title}
+                      className="w-auto aspect-square"
+                      width={101}
+                      height={101}
+                    />
                   </div>
                 ))}
               </div>

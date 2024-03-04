@@ -2,9 +2,9 @@ export default function CTABanner() {
   return (
     <section className="section-container">
       <div
-        className="flex flex-col md:flex-row items-center justify-start min-h-80 rounded-lg p-8 gap-8 md:gap-0"
+        className="flex flex-col md:flex-row items-center justify-start min-h-80 rounded-lg p-8 gap-8 md:gap-0 aspect-auto[380/79]"
         style={{
-          background: `url(/images/ctabanner.png)`,
+          background: `url(/images/ctabanner.webp)`,
           backgroundPosition: "center center",
           backgroundRepeat: "no-repeat !important",
           backgroundSize: "cover",

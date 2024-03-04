@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   basePath: "",
   output: "export",
   trailingSlash: true,
   images: { unoptimized: true },
   env: {
-    NEXT_PUBLIC_BASE_PATH: "",
     NEXT_PUBLIC_DR_NAME: "Dr. Jaime Zermeno",
     NEXT_PUBLIC_SITE_TITLE:
       "Dr. Jaime Zermeno - Cirujano Plástico Certificado en Zapopan",
