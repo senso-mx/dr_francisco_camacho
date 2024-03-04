@@ -13,7 +13,7 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_DR_NAME: "Dr. Jaime Zermeno",
     NEXT_PUBLIC_SITE_TITLE:
-      "Dr. Jaime Zermeno - Cirujano Plástico Certificado en Zapopan",
+      "Dr. Jaime Zermeno - Cirujano Plástico Reconstructivo en Zapopan",
     NEXT_PUBLIC_WHATSAPP_LINK:
       "https://api.whatsapp.com/send?phone=+5299999999&text=%C2%A1Hola%21%20quiero%20agendar%20una%20cita%20con%20el%20Dr.%20Darío%20Mora",
     NEXT_PUBLIC_PHONE: "+5299999999",

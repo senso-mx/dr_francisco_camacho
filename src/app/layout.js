@@ -7,7 +7,7 @@ import "./globals.css";
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_SITE_TITLE,
-  description: "Cirujano Plástico Certificado En Zapopan",
+  description: "Cirujano Plástico Reconstructivo En Zapopan",
   googlebot: "index,follow",
 };
 
