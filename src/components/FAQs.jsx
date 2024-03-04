@@ -34,8 +34,8 @@ export default function FAQs() {
         <div className="flex flex-wrap -m-4">
           <div className="w-full md:w-1/2 p-4">
             <Image
-              className="mx-auto md:mr-0rounded-lg aspect-auto[87/91]"
-              src="images/implantes.webp"
+              className="mx-auto md:mr-0 rounded-lg aspect-auto[87/91]"
+              src="images/faqsbg.webp"
               alt="Preguntas Frecuentes"
               height={608}
               width={635}
