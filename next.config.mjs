@@ -6,12 +6,11 @@ import OptimizeCSSAssetsPlugin from  "optimize-css-assets-webpack-plugin"
 import BrotliPlugin from  'brotli-webpack-plugin'
 
 const nextConfig = {
-  basePath: "",
+  basePath: "/cirujano-reconstructivo-en-zapopan",
   output: "export",
   trailingSlash: true,
   images: { unoptimized: true },
   env: {
-    NEXT_PUBLIC_DR_NAME: "Dr. Jaime Zermeno",
     NEXT_PUBLIC_SITE_TITLE:
       "Dr. Jaime Zermeno - Cirujano Plástico Reconstructivo en Zapopan",
     NEXT_PUBLIC_WHATSAPP_LINK:
