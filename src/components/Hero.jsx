@@ -39,14 +39,13 @@ export default function Hero() {
           />
         </div>
       </div>
-      <div
+      <a
         className="whats"
-        component="a"
         href={process.env.NEXT_PUBLIC_WHATSAPP_LINK}
         target="_blank"
       >
         <Image src={`${process.env.BASE_PATH || ''}/images/walogo.svg`} className="waicon" width={25} height={25} alt="WhatsApp Icon" />
-      </div>
+      </a>
     </section>
   );
 }
