@@ -6,7 +6,7 @@ import OptimizeCSSAssetsPlugin from  "optimize-css-assets-webpack-plugin"
 import BrotliPlugin from  'brotli-webpack-plugin'
 
 const nextConfig = {
-  basePath: "",
+  basePath: "/cirujano-plastico-certificado-en-zapopan",
   output: "export",
   trailingSlash: true,
   images: { unoptimized: true },
