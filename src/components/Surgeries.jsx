@@ -2,32 +2,32 @@ const SURGERIES = [
   {
     title: "Implante de mamas",
     image: "/images/implantesdemama.webp",
-    link: "",
+    link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Liposucción",
     image: "/images/lipo.webp",
-    link: "",
+    link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Lifting Facial",
     image: "/images/lifting.webp",
-    link: "",
+    link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Aumento de Glúteos",
     image: "/images/gluteos.webp",
-    link: "",
+    link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Abdominoplastia",
     image: "/images/abdomino.webp",
-    link: "",
+    link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
   {
     title: "Rinoplastia",
     image: "/images/rino.webp",
-    link: "",
+    link: process.env.NEXT_PUBLIC_WHATSAPP_LINK,
   },
 ];
 
