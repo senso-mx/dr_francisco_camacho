@@ -40,10 +40,10 @@ export default function About() {
           <div className="w-full md:w-1/2 p-8">
             <div className="lg:max-w-xlg">
               <div className="flex flex-col gap-0 prose">
-                <h4 className="text-3xl font-bold border-b-2 border-b-neutral-800 pb-1 m-0 md:max-w-md">
+                <h4 className="text-3xl font-bold border-b-2 border-b-neutral-800 pb-1 m-0 md:max-w-md text-center md:text-left">
                   Dr. Jaime Zermeño
                 </h4>
-                <h6 className="m-0 leading-tight font-semibold">
+                <h6 className="m-0 leading-tight font-semibold text-center md:text-left">
                   Cirujano Plástico certificado, con Sub especialidad en
                   Microcirugía y Nervio Periférico
                 </h6>
