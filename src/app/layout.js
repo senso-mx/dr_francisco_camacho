@@ -27,7 +27,8 @@ export default function RootLayout({ children }) {
           href={`${process.env.BASE_PATH || ""}/images/hero.webp`}
           as="image"
         />
-
+      </Head>
+      <body>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -39,8 +40,6 @@ export default function RootLayout({ children }) {
           `,
           }}
         />
-      </Head>
-      <body>
         <noscript>
           <iframe
             src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
