@@ -27,7 +27,7 @@ export default function Hero() {
               Dr. Jaime Zermeño
             </h1>
             <h3 className="m-0 italic text-white text-center md:text-left text-lg md:text-xl">
-              Cirujano Plástico Certificado en Zapopan
+              Cirujano Plástico Reconstructivo en Zapopan
             </h3>
             <p className="m-0 italic text-center md:text-left text-sm md:text-md text-neutral-content">
               <b>DGP.</b> 2574745 <b>ESP.</b> 4896968 <b>CERT.</b> 1356
