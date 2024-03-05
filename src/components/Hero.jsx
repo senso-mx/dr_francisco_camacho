@@ -47,8 +47,8 @@ export default function Hero() {
         <Image
           src={`${process.env.BASE_PATH || ""}/images/walogo.svg`}
           className="waicon"
-          width={25}
-          height={25}
+          width={30}
+          height={30}
           alt="WhatsApp Icon"
         />
       </a>
