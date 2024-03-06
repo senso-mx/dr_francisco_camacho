@@ -37,7 +37,14 @@ export default function Hero() {
             Reconstruimos la calidad de vida con Microcirugía
             <br className="hidden md:block" /> y atención a nervio periférico.
           </p>
-          <button className="btn btn-primary btn-lg">Cita por Whatsapp</button>
+          <a
+            role="button"
+            className="btn btn-primary btn-lg"
+            href={process.env.NEXT_PUBLIC_WHATSAPP_LINK}
+            target="_blank"
+          >
+            Cita por Whatsapp
+          </a>
         </div>
         <div className="flex justify-start items-center w-full h-fit my-8 md:h-full">
           <Image
