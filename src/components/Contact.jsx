@@ -1,4 +1,17 @@
 export default function Contact() {
+  const formatPhoneNumber = (phone) => {
+    // Strip the country code (+52) and any other non-digit character
+    const strippedNumber = phone.replace(/[^\d]/g, "").slice(2);
+
+    // Extract parts of the number
+    const areaCode = strippedNumber.substring(0, 2);
+    const firstPart = strippedNumber.substring(2, 6);
+    const secondPart = strippedNumber.substring(6);
+
+    // Format and return the phone number
+    return `(${areaCode}) ${firstPart} ${secondPart}`;
+  };
+
   return (
     <section className="flex flex-wrap -m-8">
       <div className="w-full md:w-1/2 p-8 pb-0">
@@ -19,15 +32,14 @@ export default function Contact() {
           </h6>
         </div>
         <p className="w-full md:max-w-lg">
-          <b>Dirección del consultorio:</b> Av. Naciones Unidas 7972, Fracc.
-          Villa Verona, 45019 Zapopan, Jal.
+          <b>Dirección del consultorio:</b> Av. Naciones Unidas 7972 Int 8
+          <br />
+          Col. Lomas del Valle, 45019 Zapopan, Jal.
           <br />
           <br />
           <b>Horario:</b>
           <br />
-          Lunes a Viernes: 9:00 - 18:00
-          <br />
-          Sábado: 9:00 - 14:00
+          Lunes a Viernes: 10:00 - 14:00 y 18:00 - 20:00
           <br />
           <br />
           <b>Envía mensaje a:</b>{" "}
@@ -36,7 +48,17 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="text-secondary"
           >
-            33 1313 2535
+            {formatPhoneNumber(process.env.NEXT_PUBLIC_WAPHONE)}
+          </a>
+          <br />
+          <br />
+          <b>Llamadas:</b>{" "}
+          <a
+            href={`tel:${process.env.NEXT_PUBLIC_PHONE}`}
+            rel="noopener noreferrer"
+            className="text-secondary"
+          >
+            {formatPhoneNumber(process.env.NEXT_PUBLIC_PHONE)}
           </a>
         </p>
       </div>
