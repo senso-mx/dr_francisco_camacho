@@ -35,7 +35,14 @@ export default function Hero() {
             <br className="hidden md:block" />
             la calidad de vida de mis pacientes.
           </p>
-          <button className="btn btn-primary btn-lg">Cita por Whatsapp</button>
+          <a
+            role="button"
+            className="btn btn-primary btn-lg"
+            href={process.env.NEXT_PUBLIC_WHATSAPP_LINK}
+            target="_blank"
+          >
+            Cita por Whatsapp
+          </a>
         </div>
         {/* <div className="flex justify-start items-center w-full h-full">B</div> */}
       </div>
