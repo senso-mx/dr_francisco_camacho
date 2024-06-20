@@ -2,7 +2,7 @@ import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import CTABanner from "@/components/CTABanner";
 import About from "@/components/About";
-import CTASplit from "@/components/CTASplit";
+import Hospitals from "@/components/CTASplit";
 import FAQs from "@/components/FAQs";
 import Contact from "@/components/Contact";
 
@@ -22,7 +22,7 @@ export default function Home() {
         }
       />
       <About />
-      <CTASplit />
+      <Hospitals />
       <CTABanner
         content={
           <>

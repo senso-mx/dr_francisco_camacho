@@ -28,7 +28,7 @@ export default function About() {
     <section className="section-container">
       <div className="container mx-auto py-6">
         <div className="flex flex-wrap -m-8">
-          <div className="w-full md:w-1/2 p-8">
+          <div className="w-full lg:w-1/2 p-8">
             <Image
               className="mx-auto shadow-[5px_5px_0px_-1px_rgba(0,0,0,0.1)] border-2 border-gray-200"
               src={`${process.env.BASE_PATH || ""}/imgs/about.webp`}
@@ -37,7 +37,7 @@ export default function About() {
               height={730}
             />
           </div>
-          <div className="w-full md:w-1/2 p-8">
+          <div className="w-full lg:w-1/2 p-8">
             <div className="lg:max-w-xlg">
               <div className="flex flex-col gap-0 prose">
                 <p className="m-0 leading-tight font-extralight text-xl text-center md:text-left">

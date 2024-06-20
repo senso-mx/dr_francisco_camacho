@@ -42,11 +42,11 @@ export default function FAQs() {
     >
       <div className="container mx-auto px-4 py-20">
         <div className="flex flex-wrap items-center">
-          <div className="w-full md:w-1/2">
-            <div className="flex flex-col justify-start h-full pl-4 md:pl-8 lg:pl-12">
+          <div className="w-full lg:w-1/2">
+            <div className="flex flex-col justify-start h-full pl-4 ls:pl-8 lg:pl-12">
               <div className="flex-initial mb-10">
-                <div className="md:max-w-lg">
-                  <h2 className="text-center md:text-left font-normal md:font-extralight uppercase text-primary text-xl lg:text-3xl tracking-tight w-full mb-2 pb-2">
+                <div className="lg:max-w-lg">
+                  <h2 className="text-center lg:text-left font-normal lg:font-extralight uppercase text-primary text-xl lg:text-3xl tracking-tight w-full mb-2 pb-2">
                     Preguntas Frecuentes
                   </h2>
                 </div>

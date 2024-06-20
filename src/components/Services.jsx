@@ -45,7 +45,7 @@ const SURGERIES = [
 export default function Surgeries() {
   return (
     <section className="section-container">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4">
         {SURGERIES.map((surgery) => (
           <div
             key={surgery.title}

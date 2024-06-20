@@ -19,8 +19,8 @@ export default function Contact() {
       <h6 className="text-primary font-normal md:font-extralight text-xl md:text-3xl w-full text-center mb-8">
         UBICANOS, SIEMPRE CERCA, ¡TE ESPERAMOS!
       </h6>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-        <div className="flex flex-col  w-full">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-0">
+        {/* <div className="flex flex-col  w-full">
           <div className="w-full p-4 flex flex-col justify-center items-start gap-6 m-4 md:m-0">
             <p className="w-full md:max-w-lg text-extralight text-neutral-600">
               <span className="font-medium">
@@ -31,7 +31,7 @@ export default function Contact() {
                 href="https://maps.app.goo.gl/V7ixv9rQ5MVrn3Kv9"
                 rel="noopener noreferrer"
               >
-                Constitución #43 C.P. 48540 (frente tienda La Estación)
+                Por revelar...
               </a>
               <br />
               <br />
@@ -60,9 +60,9 @@ export default function Contact() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-        </div>
+        </div> */}
         <div className="flex flex-col w-full">
-          <div className="w-full p-4 flex flex-col justify-center items-start gap-6 m-4 md:m-0">
+          <div className="w-full p-4 flex flex-col justify-center items-center text-center gap-6 m-4 md:m-0">
             <p className="w-full md:max-w-lg text-neutral-600">
               <span className="font-medium">
                 Dirección Tecolotlán, Jalisco:
