@@ -43,9 +43,9 @@ export default function About() {
                 <p className="m-0 leading-tight font-extralight text-xl text-center md:text-left">
                   Conóceme...
                 </p>
-                <h5 className="text-2xl text-primary text-light pb-1 m-0 md:max-w-md text-center md:text-left">
+                <p className="text-2xl text-primary text-light pb-1 m-0 md:max-w-md text-center md:text-left">
                   DRA. CITLALLI ZEPEDA
-                </h5>
+                </p>
               </div>
               <div className="my-12 flex flex-col gap-8 text-center md:text-left">
                 <p>

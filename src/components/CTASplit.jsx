@@ -23,10 +23,10 @@ export default function Hospitals() {
         <div className="flex flex-wrap border-4 border-gray-200">
           <div className="w-full lg:w-1/3 p-8 flex flex-col justify-center items-start gap-6">
             <div className="flex flex-col gap-0 prose items-center w-full">
-              <h6 className="text-xl md:text-2xl m-0 md:max-w-md text-center lg:text-left text-primary font-light w-full">
+              <h4 className="text-xl md:text-2xl m-0 md:max-w-md text-center lg:text-left text-primary font-light w-full">
                 TU CIRUGÍA SEGURA
                 <br />Y CON EL MEJOR EQUIPO
-              </h6>
+              </h4>
             </div>
           </div>
           <div className="w-full lg:w-2/3 p-8">

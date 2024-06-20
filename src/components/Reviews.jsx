@@ -51,9 +51,9 @@ export default function Reviews() {
         <div className="py-16 px-8 rounded-xl bg-jaime">
           <div className="max-w-7xl mx-auto">
             <div className="w-full mx-auto text-center">
-              <h2 className="font-heading mb-12 text-3xl md:text-4xl font-bold tracking-tight italic">
+              <p className="font-heading mb-12 text-3xl md:text-4xl font-bold tracking-tight italic">
                 Historias que roban miradas
-              </h2>
+              </p>
             </div>
             <div className="flex flex-wrap -m-4">
               <Swiper
@@ -76,7 +76,7 @@ export default function Reviews() {
                             <p className="text-base italic">{reviews[0].message}</p>
                           </div>
                           <div className="flex-initial bg-secondary rounded-b-xl p-2">
-                            <h6 className="text-white">{reviews[0].author}</h6>
+                            <p className="text-white">{reviews[0].author}</p>
                           </div>
                         </div>
                       </div>
@@ -86,7 +86,7 @@ export default function Reviews() {
                             <p className="text-base italic">{reviews[1].message}</p>
                           </div>
                           <div className="flex-initial bg-secondary rounded-b-xl p-2">
-                            <h6 className="text-white">{reviews[1].author}</h6>
+                            <p className="text-white">{reviews[1].author}</p>
                           </div>
                         </div>
                       </div>

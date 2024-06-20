@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div>
       <section
-        className="flex min-h-[90svh] h-full w-full bg-[right_-360px_top] md:bg-center relative bg-blend-multiply bg-gray-300 md:bg-white"
+        className="flex h-full w-full bg-[right_-360px_top] md:bg-center relative bg-blend-multiply bg-gray-300 md:bg-white"
         style={{
           backgroundImage: `url(${
             process.env.BASE_PATH || ""
@@ -14,7 +14,7 @@ export default function Hero() {
           backgroundSize: "cover",
         }}
       >
-        <div className="section-container flex flex-row items-center min-h-full">
+        <div className="section-container flex flex-row items-center min-h-full py-10">
           <div className="prose-lg flex flex-col justify-center items-center md:items-start w-full gap-4 my-8 mb-16">
             <Image
               src={`${process.env.BASE_PATH || ""}/imgs/emblema.svg`}

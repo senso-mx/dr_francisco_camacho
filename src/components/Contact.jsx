@@ -92,6 +92,7 @@ export default function Contact() {
           </div>
           <div className="w-full">
             <iframe
+              title="consultorio direccion"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.3707356873842!2d-104.05361021793928!3d20.20190966733347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8425c6f75a481d3b%3A0x3e2349d8fdd64b69!2sConstituci%C3%B3n%2043%2C%20Centro%2C%2048540%20Tecolotl%C3%A1n%2C%20Jal.%2C%20M%C3%A9xico!5e0!3m2!1ses-419!2ses!4v1718881134983!5m2!1ses-419!2ses"
               width="100%"
               height="450"

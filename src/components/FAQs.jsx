@@ -46,9 +46,9 @@ export default function FAQs() {
             <div className="flex flex-col justify-start h-full pl-4 ls:pl-8 lg:pl-12">
               <div className="flex-initial mb-10">
                 <div className="lg:max-w-lg">
-                  <h2 className="text-center lg:text-left font-normal lg:font-extralight uppercase text-primary text-xl lg:text-3xl tracking-tight w-full mb-2 pb-2">
+                  <h5 className="text-center lg:text-left font-normal lg:font-extralight uppercase text-primary text-xl lg:text-3xl tracking-tight w-full mb-2 pb-2">
                     Preguntas Frecuentes
-                  </h2>
+                  </h5>
                 </div>
               </div>
               <div className="flex-initial">
