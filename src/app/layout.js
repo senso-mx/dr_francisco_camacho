@@ -5,11 +5,11 @@ import "./globals.css";
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_SITE_TITLE,
-  description: "Cirujano Plástico Certificado En Zapopan",
+  description: "Dra. Citlalli Zepeda - Cirugía y Medicina Estética En Zapopan",
   googlebot: "index,follow",
 };
 
-const GTM_ID = "GTM-TJTLMX3V";
+const GTM_ID = "GTM-W6PF797V";
 
 const montserrat = Montserrat({
   weight: ["200", "300", "400", "500", "600", "700", "800"],
