@@ -14,7 +14,7 @@ export default function Home() {
       <CTABanner
         content={
           <>
-            <p className="font-extralight text-2xl">
+            <p className="font-extralight text-xl md:text-2xl text-center md:text-left">
               Tu transformación comienza con una valoración,{" "}
               <span className="text-primary">siéntete increíble cada día</span>
             </p>
@@ -26,7 +26,7 @@ export default function Home() {
       <CTABanner
         content={
           <>
-            <p className="font-extralight text-2xl">
+            <p className="font-extralight text-xl md:text-2xl text-center md:text-left">
               ¿Estás lista para ser tu versión más segura y atractiva? {" "}
               <span className="text-primary">¡Agenda hoy!</span>
             </p>

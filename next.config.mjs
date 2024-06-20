@@ -15,7 +15,7 @@ const nextConfig = {
     NEXT_PUBLIC_SITE_TITLE:
       "Dra. Citlalli Zepeda - Cirugía y medicina estética en Zapopan",
     NEXT_PUBLIC_WHATSAPP_LINK:
-      "https://api.whatsapp.com/send?phone=&text=%C2%A1Hola%21%20quiero%20agendar%20una%20cita%20con%la%20Dra.%20Citlalli%20Zepeda",
+      "https://api.whatsapp.com/send?phone=+523334554602&text=%C2%A1Hola%21%20quiero%20agendar%20una%20cita%20de%20valoraci%C3%B3n%20con%20la%20Dra.%20Citlalli%20Zepeda",
     NEXT_PUBLIC_PHONE: "+523334554602",
     NEXT_PUBLIC_WAPHONE: "+523334554602",
   },

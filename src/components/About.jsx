@@ -7,19 +7,19 @@ const LOGOS = [
   },
   {
     image: `${process.env.BASE_PATH || ""}/imgs/colegio-estetico.webp`,
-    title: "UDG",
+    title: "Colegio de cirugía estética",
   },
   {
     image: `${process.env.BASE_PATH || ""}/imgs/iesm.webp`,
-    title: "ASSH",
+    title: "IESM",
   },
   {
     image: `${process.env.BASE_PATH || ""}/imgs/colegio-maestria.webp`,
-    title: "ASPN",
+    title: "Colegio de cirugía con maestría",
   },
   {
     image: `${process.env.BASE_PATH || ""}/imgs/hospital-guarulhos.webp`,
-    title: "CMCP",
+    title: "Hospital Guarulhos",
   },
 ];
 
@@ -47,7 +47,7 @@ export default function About() {
                   DRA. CITLALLI ZEPEDA
                 </h5>
               </div>
-              <div className="my-12 flex flex-col gap-8">
+              <div className="my-12 flex flex-col gap-8 text-center md:text-left">
                 <p>
                   Cirujano general y estético egresada de la{" "}
                   <span className="text-primary">

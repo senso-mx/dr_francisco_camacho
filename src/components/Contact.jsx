@@ -16,7 +16,7 @@ export default function Contact() {
 
   return (
     <section className="pt-12">
-      <h6 className="text-primary font-extralight text-3xl w-full text-center mb-8">
+      <h6 className="text-primary font-normal md:font-extralight text-xl md:text-3xl w-full text-center mb-8">
         UBICANOS, SIEMPRE CERCA, ¡TE ESPERAMOS!
       </h6>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0">

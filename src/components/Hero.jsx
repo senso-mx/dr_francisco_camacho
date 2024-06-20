@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div>
       <section
-        className="flex min-h-[90svh] h-full w-full bg-center md:bg-center"
+        className="flex min-h-[90svh] h-full w-full bg-[right_-360px_top] md:bg-center relative bg-blend-multiply bg-gray-300 md:bg-white"
         style={{
           backgroundImage: `url(${
             process.env.BASE_PATH || ""
@@ -23,20 +23,22 @@ export default function Hero() {
               height={182}
             />
             <div className="flex flex-col gap-0">
-              <h1 className="text-primary font-light border-b-2 border-b-neutral-800 pb-6 m-0 text-center md:text-left text-4xl md:text-5xl">
+              <h1 className="text-primary font-normal md:font-light border-b-2 border-b-neutral-800 pb-6 m-0 text-center md:text-left text-4xl md:text-5xl">
                 DRA. CITLALLI ZEPEDA
               </h1>
               <h2 className="m-0 text-center md:text-left text-lg md:text-xl">
                 Cirugía y medicina estética
               </h2>
-              <p className="m-0 italic text-center md:text-left text-sm md:text-md">
+              {/* <p className="m-0 italic text-center md:text-left text-sm md:text-md">
                 <b>DGP.</b> 2574745 <b>ESP.</b> 4896968 <b>CERT.</b> 1356
-              </p>
+              </p> */}
             </div>
             <p className="leading-tight text-center md:text-left">
               Elevemos tu confianza, autoestima y belleza.
               <br className="hidden md:block" />
-              <span className="text-primary">Conmigo, tu bienestar y seguridad es prioridad.</span>
+              <span className="text-primary">
+                Conmigo, tu bienestar y seguridad es prioridad.
+              </span>
             </p>
             <div class="join">
               <a

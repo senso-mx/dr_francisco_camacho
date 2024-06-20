@@ -5,7 +5,7 @@ import "./globals.css";
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_SITE_TITLE,
-  description: "Dra. Citlalli Zepeda - Cirugía y Medicina Estética En Zapopan",
+  description: "Dra. Citlalli Esmeralda Zepeda Castillo - Cirugía y Medicina Estética En Zapopan",
   googlebot: "index,follow",
 };
 
