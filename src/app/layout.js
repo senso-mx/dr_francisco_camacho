@@ -10,7 +10,7 @@ export const metadata = {
   googlebot: "index,follow",
 };
 
-const GTM_ID = "GTM-W6PF797V";
+const GTM_ID = "GTM-K3KP26MM";
 
 const montserrat = Montserrat({
   weight: ["200", "300", "400", "500", "600", "700", "800"],
