@@ -25,6 +25,9 @@ jobs:
     - name: List output files
       run: ls
 
+    - name: Copy htaccess
+      run: cp ./src/htdocs/.htaccess ./out/.htaccess
+
     - name: Reset repo to fix build changes
       run: git reset --hard
 

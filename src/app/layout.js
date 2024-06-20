@@ -5,7 +5,8 @@ import "./globals.css";
 
 export const metadata = {
   title: process.env.NEXT_PUBLIC_SITE_TITLE,
-  description: "Dra. Citlalli Esmeralda Zepeda Castillo - Cirugía y Medicina Estética En Zapopan",
+  description:
+    "Dra. Citlalli Esmeralda Zepeda Castillo - Cirugía y Medicina Estética En Zapopan",
   googlebot: "index,follow",
 };
 
@@ -47,6 +48,9 @@ export default function RootLayout({ children }) {
           href={`${process.env.BASE_PATH || ""}/imgs/sin-cirugia.webp`}
           as="image"
         />
+
+        <link rel="preconnect" href="https://static.hotjar.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
       </Head>
       <body>
         <script
