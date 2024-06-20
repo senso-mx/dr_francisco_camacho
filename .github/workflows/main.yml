@@ -12,22 +12,6 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
 
-    - name: Extract LP dir name from tag
-      id: lp_dir
-      run: |
-        TAG_NAME=$(echo "${{ github.event.release.tag_name }}" | sed -E 's/^(plastic|recon)\.?v?.*/\1/')
-
-        if [[ $TAG_NAME == 'plastic' ]]; then
-          echo "DIRNAME=cirujano-plastico-certificado-en-zapopan" >> $GITHUB_OUTPUT
-        elif [[ $TAG_NAME == 'recon' ]]; then
-          echo "DIRNAME=cirujano-reconstructivo-en-zapopan" >> $GITHUB_OUTPUT
-        else
-          echo "Tag name does not match 'plastic' or 'recon'. Stopping workflow."
-          exit 1
-        fi
-
-        echo "Extracted tag name is $TAG_NAME"
-
     - name: Use Node.js 20.11.1
       uses: actions/setup-node@v2
       with:
@@ -36,7 +20,7 @@ jobs:
     - name: Export Project
       run: |
         npm install
-        NODE_ENV=production BASE_PATH=/${{ steps.lp_dir.outputs.DIRNAME }} npm run build
+        NODE_ENV=production BASE_PATH='' npm run build
 
     - name: List output files
       run: ls
@@ -52,4 +36,4 @@ jobs:
         username: ${{ secrets.PROD_USER }}
         password: ${{ secrets.PROD_PASS }}
         local-dir: out/ # This folder is NOT going to upload by default unless you add it to .git-ftp-include
-        server-dir: ./${{ steps.lp_dir.outputs.DIRNAME }}/
+        server-dir: ./
