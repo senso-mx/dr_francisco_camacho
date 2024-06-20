@@ -75,7 +75,7 @@ export default function Surgeries() {
 
               <a
                 className="btn btn-secondary btn-md px-12 mt-8 rounded-none border-2 border-primary"
-                href={surgery.link}
+                href={process.env.NEXT_PUBLIC_WHATSAPP_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
                 role="button"
