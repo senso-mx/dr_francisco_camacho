@@ -24,7 +24,27 @@ export default function RootLayout({ children }) {
       <Head>
         <link
           rel="preload"
-          href={`${process.env.BASE_PATH || ""}/images/hero.webp`}
+          href={`${process.env.BASE_PATH || ""}/imgs/hero.webp`}
+          as="image"
+        />
+        <link
+          rel="preload"
+          href={`${process.env.BASE_PATH || ""}/imgs/about.webp`}
+          as="image"
+        />
+        <link
+          rel="preload"
+          href={`${process.env.BASE_PATH || ""}/imgs/cara.webp`}
+          as="image"
+        />
+        <link
+          rel="preload"
+          href={`${process.env.BASE_PATH || ""}/imgs/cuerpo-busto.webp`}
+          as="image"
+        />
+        <link
+          rel="preload"
+          href={`${process.env.BASE_PATH || ""}/imgs/sin-cirugia.webp`}
           as="image"
         />
       </Head>

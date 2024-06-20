@@ -21,23 +21,26 @@ module.exports = {
     themes: [
       {
         sensomx: {
-          "primary": "#19D6CB",
+          "primary": "#EF7A69",
           "primary-content": "#ffffff",
-          "secondary": "#14145E",
-          "secondary-content": "#ffffff",
-          "neutral": "#3D3D3D",
-          "text-primary": "#3D3D3D",
-          "bg-accent": "##EFF6F5",
-          "base-300": "#3D3D3D",
+          "secondary": "#FFFFFF",
+          "secondary-content": "#EF7A69",
+          "neutral": "#070D15",
+          "text-primary": "#070D15",
+          "bg-accent": "#FFE6E6",
+          "base-300": "#F8F8F8",
 
           extend: {
             aspectRatio: {
               '152/101': '152 / 101',
               '87/191': '87 / 91',
-              '760/871': '760 / 871',
+              '690/1107': '690 / 1107',
               '380/79': '380 / 79',
               '190/221': '190 / 221',
             },
+            boxShadow: {
+              'square': '8px 10px 0px -1px rgba(0,0,0,0.75)',
+            }
           }
         }
       },

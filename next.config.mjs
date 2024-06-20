@@ -13,11 +13,11 @@ const nextConfig = {
   images: { unoptimized: true },
   env: {
     NEXT_PUBLIC_SITE_TITLE:
-      "Dr. Jaime Zermeno - Cirujano Plástico Certificado en Zapopan",
+      "Dra. Citlalli Zepeda - Cirugía y medicina estética en Zapopan",
     NEXT_PUBLIC_WHATSAPP_LINK:
-      "https://api.whatsapp.com/send?phone=+523326150332&text=%C2%A1Hola%21%20quiero%20agendar%20una%20cita%20con%20el%20Dr.%20Jaime%20Zermeño",
-    NEXT_PUBLIC_PHONE: "+523315224545",
-    NEXT_PUBLIC_WAPHONE: "+523326150332",
+      "https://api.whatsapp.com/send?phone=&text=%C2%A1Hola%21%20quiero%20agendar%20una%20cita%20con%la%20Dra.%20Citlalli%20Zepeda",
+    NEXT_PUBLIC_PHONE: "+523334554602",
+    NEXT_PUBLIC_WAPHONE: "+523334554602",
   },
   webpack: (config, { dev, isServer }) => {
     if (isServer || dev) {

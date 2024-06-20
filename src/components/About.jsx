@@ -2,23 +2,23 @@ import Image from "next/image";
 
 const LOGOS = [
   {
-    image: `${process.env.BASE_PATH || ''}/images/logos/uach.webp`,
-    title: "UACH",
-  },
-  {
-    image: `${process.env.BASE_PATH || ''}/images/logos/udg.webp`,
+    image: `${process.env.BASE_PATH || ""}/imgs/udg.webp`,
     title: "UDG",
   },
   {
-    image: `${process.env.BASE_PATH || ''}/images/logos/assh.webp`,
+    image: `${process.env.BASE_PATH || ""}/imgs/colegio-estetico.webp`,
+    title: "UDG",
+  },
+  {
+    image: `${process.env.BASE_PATH || ""}/imgs/iesm.webp`,
     title: "ASSH",
   },
   {
-    image: `${process.env.BASE_PATH || ''}/images/logos/aspn.webp`,
+    image: `${process.env.BASE_PATH || ""}/imgs/colegio-maestria.webp`,
     title: "ASPN",
   },
   {
-    image: `${process.env.BASE_PATH || ''}/images/logos/cmcp.webp`,
+    image: `${process.env.BASE_PATH || ""}/imgs/hospital-guarulhos.webp`,
     title: "CMCP",
   },
 ];
@@ -28,61 +28,81 @@ export default function About() {
     <section className="section-container">
       <div className="container mx-auto py-6">
         <div className="flex flex-wrap -m-8">
-          <div className="w-full md:w-1/2 p-8">
+          <div className="w-full md:w-1/2 p-8 aspect-auto[690/1107]">
             <Image
-              className="mx-auto md:ml-0 rounded-lg aspect-auto[760/871]"
-              src={`${process.env.BASE_PATH || ''}/images/about.webp`}
-              alt="Doctor"
-              width={608}
-              height={697}
+              className="mx-auto md:ml-0 shadow-[5px_5px_0px_-1px_rgba(0,0,0,0.1)] border-2 border-gray-200 "
+              src={`${process.env.BASE_PATH || ""}/imgs/about.webp`}
+              alt="Doctora Citlalli Zepeda"
+              width={690}
+              height={1107}
             />
           </div>
           <div className="w-full md:w-1/2 p-8">
             <div className="lg:max-w-xlg">
               <div className="flex flex-col gap-0 prose">
-                <h4 className="text-3xl font-bold border-b-2 border-b-neutral-800 pb-1 m-0 md:max-w-md text-center md:text-left">
-                  Dr. Jaime Zermeño
-                </h4>
-                <h6 className="m-0 leading-tight font-semibold text-center md:text-left">
-                  Cirujano Plástico certificado, con Sub especialidad en
-                  Microcirugía y Nervio Periférico
-                </h6>
+                <p className="m-0 leading-tight font-extralight text-xl text-center md:text-left">
+                  Conóceme...
+                </p>
+                <h5 className="text-2xl text-primary text-light pb-1 m-0 md:max-w-md text-center md:text-left">
+                  DRA. CITLALLI ZEPEDA
+                </h5>
               </div>
-              <p className="my-12">
-                Médico Cirujano Plástico Certificado en Zapopan egresado de la
-                Universidad Autónoma de Chihuahua, con especialidad en{" "}
-                <strong>
-                  Cirugía General y sub-especialidad en Cirugía Plástica,
-                  Estética y Reconstructiva
-                </strong>
-                , busco ofrecer atención médica de primera calidad ante
-                problemas estéticos y de autoestima, mejorando la silueta y
-                armonía facial.
-                <br />
-                <br />
-                Además de contar con Alta especialidad en{" "}
-                <strong>
-                  Cirugía de Nervio Periférico y Plexo Braquial
-                </strong>{" "}
-                en la Universidad Autónoma de Coahuila que me permite brindar
-                tratamientos de vanguardia para tratar lesiones nerviosas
-                relacionadas con los nervios periféricos y del plexo braquial,
-                como lesiones traumáticas o compresiones nerviosas crónicas y
-                cirugía de mano.
-              </p>
-              <div className="flex flex-wrap md:flex-nowrap -m-2 justify-center gap-4">
-                {LOGOS.map((item) => (
-                  <div className="w-28 md:w-full p-2" key={item.title}>
-                    <Image
-                      src={item.image}
-                      alt={item.title}
-                      className="w-auto aspect-square"
-                      width={101}
-                      height={101}
-                    />
-                  </div>
-                ))}
+              <div className="my-12 flex flex-col gap-8">
+                <p>
+                  Cirujano general y estético egresada de la{" "}
+                  <span className="text-primary">
+                    Universidad de Guadalajara
+                  </span>{" "}
+                  y del{" "}
+                  <span className="text-primary">
+                    Universidad de Estudios Superiores en Medicina
+                  </span>
+                  , miembro del Colegio de cirujanos estéticos de Guadalajara
+                  con +8 años de experiencia a nivel internacional y certificada
+                  ante el Consejo de Cirujanos Estéticos de México.
+                  <br />
+                  <br />
+                  Mi prioridad es brindar a mis pacientes procedimientos
+                  seguros, efectivos y que cumplan con sus objetivos estéticos
+                  para realzar su belleza natural y elevar su confianza y
+                  percepción de sí mismos, anteponiendo su bienestar y
+                  salvaguardar su seguridad desde la primera consulta hasta su
+                  recuperación.
+                </p>
+                <p className="text-md uppercase text-primary">
+                  Instituto de Estudios Superiores en Medicina
+                  <br />
+                  <span className="font-medium">
+                    Maestría en Cirugía Estética
+                  </span>
+                </p>
+                <p className="text-md uppercase text-primary">
+                  Colegio de cirujanos estéticos de Guadalajara S.A.
+                  <br />
+                  <span className="font-medium">
+                    Miembro activo del comité de Honor y Justicia
+                  </span>
+                </p>
+                <p className="text-md uppercase text-primary">
+                  Hospital Gral. de Guarulhos, São Paulo. Brasil
+                  <br />
+                  <span className="font-medium">Cirujano general</span>
+                </p>
               </div>
+            </div>
+
+            <div className="flex flex-wrap md:flex-nowrap -m-2 justify-center  items-center gap-4">
+              {LOGOS.map((item) => (
+                <div className="w-28 md:w-full p-2" key={item.title}>
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    className="w-auto"
+                    width={85}
+                    height={85}
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>

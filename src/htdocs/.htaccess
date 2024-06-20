@@ -59,7 +59,7 @@ RewriteEngine on
 
 # Anti-hotlinking
 RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?drjaimezermeno.com [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?dracitlallizepeda.com [NC]
 
 # Permitir motores de búsqueda
 RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?google.com [NC]
@@ -83,8 +83,8 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 
 RewriteCond %{HTTP:X-Forwarded-SSL} !on
-RewriteCond %{HTTP_HOST} ^www.drjaimezermeno.com [NC]
-RewriteRule ^(.*)$ http://drjaimezermeno.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^www.dracitlallizepeda.com [NC]
+RewriteRule ^(.*)$ http://dracitlallizepeda.com/$1 [L,R=301]
 
 <IfModule mod_rewrite.c>
 RewriteEngine On

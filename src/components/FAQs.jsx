@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const faqs = [
   {
     question: "¿Debo prepararme para una Cirugía?",
@@ -29,32 +27,35 @@ const faqs = [
 
 export default function FAQs() {
   return (
-    <section className="py-6 overflow-hidden">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-wrap -m-4">
-          <div className="w-full md:w-1/2 p-4">
-            <Image
-              className="mx-auto md:mr-0 rounded-lg aspect-auto[87/91]"
-              src={`${process.env.BASE_PATH || ''}/images/faqsbg.webp`}
-              alt="Preguntas Frecuentes"
-              height={608}
-              width={635}
-            />
-          </div>
+    <section
+      className="flex items-center justify-center overflow-hidden h-full"
+      style={{
+        backgroundImage: `url(${
+          process.env.BASE_PATH || ""
+        }/imgs/faqsbg.webp)`,
+        backgroundPosition: "center center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundColor: "transparent",
+        position: "relative",
+      }}
+    >
+      <div className="container mx-auto px-4 py-20">
+        <div className="flex flex-wrap items-center">
           <div className="w-full md:w-1/2 p-4">
             <div className="flex flex-col justify-start h-full pl-4 md:pl-8 lg:pl-12">
               <div className="flex-initial mb-10">
                 <div className="md:max-w-lg">
-                  <h2 className="text-xl md:text-2xl lg:text-3xl font-bold tracking-tight border-b-2 border-b-neutral-800 w-fit mb-2 pb-2">
+                  <h2 className="text-xl font-extralight uppercase text-primary md:text-xl lg:text-3xl tracking-tight w-fit mb-2 pb-2">
                     Preguntas Frecuentes
                   </h2>
                 </div>
               </div>
               <div className="flex-initial">
-                <div className="flex flex-wrap -m-4 gap-2 w-full">
+                <div className="flex flex-wrap -m-4 w-full">
                   {faqs.map((faq, i) => (
                     <div
-                      className="collapse collapse-arrow bg-base-300 text-white"
+                      className="collapse collapse-arrow rounded-none bg-white border-2 border-primary"
                       key={faq.question}
                     >
                       <input
@@ -62,11 +63,11 @@ export default function FAQs() {
                         name="my-accordion-2"
                         defaultChecked={i === 0}
                       />
-                      <div className="collapse-title text-lg font-medium">
+                      <div className="collapse-title text-md font-normal">
                         {faq.question}
                       </div>
                       <div className="collapse-content">
-                        <p className="text-white font-light">{faq.answer}</p>
+                        <p className="font-light">{faq.answer}</p>
                       </div>
                     </div>
                   ))}
@@ -74,6 +75,7 @@ export default function FAQs() {
               </div>
             </div>
           </div>
+          <div className="w-full md:w-1/2 p-4"></div>
         </div>
       </div>
     </section>
