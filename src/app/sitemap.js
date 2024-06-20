@@ -1,4 +1,4 @@
-const HOST = "https://dracitlallizepeda.com/";
+const HOST = "https://dracitlallizepeda.com";
 
 export default function sitemap() {
     return [
