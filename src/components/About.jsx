@@ -28,13 +28,13 @@ export default function About() {
     <section className="section-container">
       <div className="container mx-auto py-6">
         <div className="flex flex-wrap -m-8">
-          <div className="w-full md:w-1/2 p-8 aspect-auto[690/1107]">
+          <div className="w-full md:w-1/2 p-8">
             <Image
-              className="mx-auto md:ml-0 shadow-[5px_5px_0px_-1px_rgba(0,0,0,0.1)] border-2 border-gray-200 "
+              className="mx-auto shadow-[5px_5px_0px_-1px_rgba(0,0,0,0.1)] border-2 border-gray-200"
               src={`${process.env.BASE_PATH || ""}/imgs/about.webp`}
               alt="Doctora Citlalli Zepeda"
-              width={690}
-              height={1107}
+              width={455}
+              height={730}
             />
           </div>
           <div className="w-full md:w-1/2 p-8">
