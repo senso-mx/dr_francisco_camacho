@@ -10,20 +10,23 @@ const faqs = [
   },
   {
     question: "¿Necesito consulta de valoración?",
-    answer: "RESPUESTA",
+    answer: "Sí, para elegir el mejor tratamiento.",
   },
   {
     question: "¿Cuál es el precio de la lipoescultura?",
-    answer: "RESPUESTA.",
+    answer:
+      "El precio va desde los $65,000 todo depende del caso de cada paciente.",
   },
   {
     question: "¿Cuál es el precio de los implantes de mama?",
-    answer: "RESPUESTA",
+    answer:
+      "El precio va desde los $65,000 todo depende del caso de cada paciente.",
   },
   {
     question:
       "¿Cuánto tiempo necesito de recuperación para regresar a mi trabajo?",
-    answer: "RESPUESTA",
+    answer:
+      "Depende del procedimiento, puede ser ambulatorio, o desde una a dos semanas.",
   },
 ];
 
@@ -67,7 +70,10 @@ export default function FAQs() {
                         {faq.question}
                       </div>
                       <div className="collapse-content">
-                        <p className="font-light" dangerouslySetInnerHTML={{__html: faq.answer}}/>
+                        <p
+                          className="font-light"
+                          dangerouslySetInnerHTML={{ __html: faq.answer }}
+                        />
                       </div>
                     </div>
                   ))}
