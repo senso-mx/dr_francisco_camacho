@@ -19,8 +19,8 @@ export default function Contact() {
       <h6 className="text-primary font-normal md:font-extralight text-xl md:text-3xl w-full text-center mb-8">
         UBICANOS, SIEMPRE CERCA, ¡TE ESPERAMOS!
       </h6>
-      <div className="grid grid-cols-1 md:grid-cols-1 gap-0">
-        {/* <div className="flex flex-col  w-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
+        <div className="flex flex-col  w-full">
           <div className="w-full p-4 flex flex-col justify-center items-start gap-6 m-4 md:m-0">
             <p className="w-full md:max-w-lg text-extralight text-neutral-600">
               <span className="font-medium">
@@ -28,10 +28,10 @@ export default function Contact() {
               </span>{" "}
               <br />
               <a
-                href="https://maps.app.goo.gl/V7ixv9rQ5MVrn3Kv9"
+                href="https://maps.app.goo.gl/TobedyrRifhwgCD28"
                 rel="noopener noreferrer"
               >
-                Por revelar...
+                Av. Miguel Hidalgo y Costilla 1980, CP 44600 Zapopan, Jal.
               </a>
               <br />
               <br />
@@ -51,7 +51,7 @@ export default function Contact() {
           </div>
           <div className="w-full">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.3707356873842!2d-104.05361021793928!3d20.20190966733347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8425c6f75a481d3b%3A0x3e2349d8fdd64b69!2sConstituci%C3%B3n%2043%2C%20Centro%2C%2048540%20Tecolotl%C3%A1n%2C%20Jal.%2C%20M%C3%A9xico!5e0!3m2!1ses-419!2ses!4v1718881134983!5m2!1ses-419!2ses"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.819620037677!2d-103.38330972459958!3d20.67691629976991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae12db5c340f%3A0xc2fb76dfe8460b7e!2sAv.%20Miguel%20Hidalgo%20y%20Costilla%201980%2C%20Ladron%20De%20Guevara%2C%2044600%20Guadalajara%2C%20Jal.%2C%20M%C3%A9xico!5e0!3m2!1ses-419!2ses!4v1718990500216!5m2!1ses-419!2ses"
               width="100%"
               height="450"
               style={{ border: 0 }}
@@ -60,7 +60,7 @@ export default function Contact() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-        </div> */}
+        </div>
         <div className="flex flex-col w-full">
           <div className="w-full p-4 flex flex-col justify-center items-center text-center gap-6 m-4 md:m-0">
             <p className="w-full md:max-w-lg text-neutral-600">

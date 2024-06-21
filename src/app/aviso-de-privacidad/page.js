@@ -1,6 +1,6 @@
 const NAME = "CITLALLI ESMERALDA ZEPEDA CASTILLO";
-const ADDRESS = "ADDRESS";
-const EMAIL = "EMAIL";
+const ADDRESS = "Calle Constitución #43 Col. Centro CP 48540 Tecolotlan, Jal.";
+const EMAIL = "citzepeda26@gmail.com";
 const HOST = "dracitlallizepeda.com";
 
 export default function AvisoDePrivacidad() {
@@ -14,7 +14,7 @@ export default function AvisoDePrivacidad() {
           Aviso de privacidad
         </h1>
         <p>
-          <strong>{NAME}</strong> con domicilio en
+          <strong>{NAME}</strong> con domicilio en{" "}
           {ADDRESS} es el responsable del uso y protección de sus datos personales,
           y al respecto le informamos lo siguiente:
           <br />

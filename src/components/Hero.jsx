@@ -29,9 +29,9 @@ export default function Hero() {
               <h2 className="m-0 text-center md:text-left text-lg md:text-xl">
                 Cirugía y medicina estética
               </h2>
-              {/* <p className="m-0 italic text-center md:text-left text-sm md:text-md">
-                <b>DGP.</b> 2574745 <b>ESP.</b> 4896968 <b>CERT.</b> 1356
-              </p> */}
+              <p className="text-primary m-0 italic text-center md:text-left text-sm md:text-md">
+                <b>CÉDULA</b> 10975282 <b>MAESTRÍA</b> 12225523
+              </p>
             </div>
             <p className="leading-tight text-center md:text-left">
               Elevemos tu confianza, autoestima y belleza.
