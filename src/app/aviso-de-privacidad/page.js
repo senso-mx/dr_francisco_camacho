@@ -1,7 +1,7 @@
-const NAME = "CITLALLI ESMERALDA ZEPEDA CASTILLO";
-const ADDRESS = "Calle Constitución #43 Col. Centro CP 48540 Tecolotlan, Jal.";
-const EMAIL = "citzepeda26@gmail.com";
-const HOST = "dracitlallizepeda.com";
+const NAME = "Dr. Luis Francisco Camacho Herrera";
+const ADDRESS = "Av. Jorge Álvarez del Castillo 1504, Lomas del Country, 44610 Guadalajara, Jal.";
+const EMAIL = "neurocirugiadrcamacho@gmail.com";
+const HOST = "neurocirugiadrcamacho.com";
 
 export default function AvisoDePrivacidad() {
 

@@ -21,13 +21,13 @@ module.exports = {
     themes: [
       {
         sensomx: {
-          "primary": "#EF7A69",
+          "primary": "#0062FE",
           "primary-content": "#ffffff",
           "secondary": "#FFFFFF",
-          "secondary-content": "#EF7A69",
+          "secondary-content": "#707070",
           "neutral": "#070D15",
           "text-primary": "#070D15",
-          "bg-accent": "#FFE6E6",
+          "bg-accent": "#2A2A2A",
           "base-300": "#F8F8F8",
 
           extend: {
@@ -40,7 +40,7 @@ module.exports = {
             },
             boxShadow: {
               'square': '8px 10px 0px -1px rgba(0,0,0,0.75)',
-            }
+            },
           }
         }
       },

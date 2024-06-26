@@ -1,10 +1,12 @@
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
+import PaymentMethods from "@/components/PaymentMethods";
 import CTABanner from "@/components/CTABanner";
 import About from "@/components/About";
-import Hospitals from "@/components/CTASplit";
+import Hospitals from "@/components/Hospitals";
 import FAQs from "@/components/FAQs";
 import Contact from "@/components/Contact";
+import Reviews from "@/components/Reviews";
 
 export default function Home() {
   return (
@@ -12,28 +14,30 @@ export default function Home() {
       <Hero />
       <Services />
       <CTABanner
+        bgImage={ `${process.env.BASE_PATH || ""}/imgs/ctabg.webp`}
         content={
           <>
-            <p className="font-extralight text-xl md:text-2xl text-center md:text-left">
-              Tu transformación comienza con una valoración,{" "}
-              <span className="text-primary">siéntete increíble cada día</span>
+            <p className="text-xl md:text-2xl text-center md:text-left text-white">
+              Retoma tus actividades y calidad de vida, comienza con una cita especializada.
             </p>
           </>
         }
       />
       <About />
       <Hospitals />
+      <PaymentMethods />
+      <Reviews />
+      <FAQs />
       <CTABanner
+        bgImage={ `${process.env.BASE_PATH || ""}/imgs/cta2bg.webp`}
         content={
           <>
-            <p className="font-extralight text-xl md:text-2xl text-center md:text-left">
-              ¿Estás lista para ser tu versión más segura y atractiva? {" "}
-              <span className="text-primary">¡Agenda hoy!</span>
+            <p className="text-xl md:text-2xl text-center md:text-left text-white">
+            El primer paso para recuperar el<br/> control, es una cita especializada
             </p>
           </>
         }
       />
-      <FAQs />
       <Contact />
     </main>
   );

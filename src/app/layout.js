@@ -6,11 +6,11 @@ import "./globals.css";
 export const metadata = {
   title: process.env.NEXT_PUBLIC_SITE_TITLE,
   description:
-    "Dra. Citlalli Esmeralda Zepeda Castillo - Cirugía y Medicina Estética En Zapopan",
+    "Dr. Francisco Camacho - Neurocirujano especialista en padecimientos del cerebro y columna",
   googlebot: "index,follow",
 };
 
-const GTM_ID = "GTM-K3KP26MM";
+const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
 
 const montserrat = Montserrat({
   weight: ["200", "300", "400", "500", "600", "700", "800"],
