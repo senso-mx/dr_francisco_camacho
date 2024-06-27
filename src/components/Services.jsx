@@ -3,39 +3,39 @@ import Image from "next/image";
 const SURGERIES = [
   {
     title: "Hernias de disco",
-    img: `${process.env.BASE_PATH || ""}/imgs/cara.webp`,
+    img: `${process.env.BASE_PATH || ""}/imgs/hernias.svg`,
   },
   {
     title: "Fracturas vertebrales",
-    img: `${process.env.BASE_PATH || ""}/imgs/cara.webp`,
+    img: `${process.env.BASE_PATH || ""}/imgs/fracturas.svg`,
   },
   {
     title: "Tumores espinales",
-    img: `${process.env.BASE_PATH || ""}/imgs/cara.webp`,
+    img: `${process.env.BASE_PATH || ""}/imgs/tumores.svg`,
   },
   {
     title: "Hidrocefalia",
-    img: `${process.env.BASE_PATH || ""}/imgs/cara.webp`,
+    img: `${process.env.BASE_PATH || ""}/imgs/hidrocefalia.svg`,
   },
   {
     title: "Hematomas craneales",
-    img: `${process.env.BASE_PATH || ""}/imgs/cara.webp`,
+    img: `${process.env.BASE_PATH || ""}/imgs/hematomas.svg`,
   },
   {
     title: "Tumores de hipófisis",
-    img: `${process.env.BASE_PATH || ""}/imgs/cara.webp`,
+    img: `${process.env.BASE_PATH || ""}/imgs/hipofisis.svg`,
   },
   {
     title: "Tumores cerebrales",
-    img: `${process.env.BASE_PATH || ""}/imgs/cara.webp`,
+    img: `${process.env.BASE_PATH || ""}/imgs/tumorescerebrales.svg`,
   },
   {
     title: "Aneurismas cerebrales",
-    img: `${process.env.BASE_PATH || ""}/imgs/cara.webp`,
+    img: `${process.env.BASE_PATH || ""}/imgs/aneurismas.svg`,
   },
   {
     title: "Endoscopia cerebral",
-    img: `${process.env.BASE_PATH || ""}/imgs/cara.webp`,
+    img: `${process.env.BASE_PATH || ""}/imgs/endoscopia.svg`,
   },
 ];
 
@@ -53,8 +53,8 @@ export default function Surgeries() {
               className=""
               src={surgery.img}
               alt={surgery.title}
-              width={60}
-              height={60}
+              width={35}
+              height={35}
             />
 
             <div className="text-white text-md font-semibold">

@@ -12,7 +12,7 @@ const nextConfig = {
   trailingSlash: true,
   images: { unoptimized: true },
   env: {
-    NEXT_PUBLIC_GTM_ID: "GTM-XXX",
+    NEXT_PUBLIC_GTM_ID: "GTM-MRTD3RSN",
     NEXT_PUBLIC_SITE_TITLE:
       "Dr. Francisco Camacho - Neurocirujano especialista en padecimientos del cerebro y columna",
     NEXT_PUBLIC_WHATSAPP_LINK:

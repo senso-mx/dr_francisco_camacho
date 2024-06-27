@@ -2,36 +2,52 @@ import Image from "next/image";
 
 const LOGOS = [
   {
-    image: `${process.env.BASE_PATH || ""}/imgs/hospitals/angeles.webp`,
-    title: "Angeles",
-  },
-  {
     image: `${process.env.BASE_PATH || ""}/imgs/hospitals/country2000.webp`,
     title: "Country 2000",
-  },
-  {
-    image: `${process.env.BASE_PATH || ""}/imgs/hospitals/puertadehierro.webp`,
-    title: "Puerta de Hierro",
-  },
-  {
-    image: `${process.env.BASE_PATH || ""}/imgs/hospitals/sanfrancisco.webp`,
-    title: "San Francisco",
+    width: 85,
+    height: 85,
   },
   {
     image: `${process.env.BASE_PATH || ""}/imgs/hospitals/sanjavier.webp`,
     title: "San Javier",
+    width: 70,
+    height: 70,
+  },
+  {
+    image: `${process.env.BASE_PATH || ""}/imgs/hospitals/puertadehierro.webp`,
+    title: "Puerta de Hierro",
+    width: 140,
+    height: 80,
+  },
+  {
+    image: `${process.env.BASE_PATH || ""}/imgs/hospitals/angeles.webp`,
+    title: "Angeles",
+    width: 85,
+    height: 150,
+  },
+  {
+    image: `${process.env.BASE_PATH || ""}/imgs/hospitals/sanfrancisco.webp`,
+    title: "San Francisco",
+    width: 85,
+    height: 85,
   },
   {
     image: `${process.env.BASE_PATH || ""}/imgs/hospitals/sanjose.webp`,
     title: "San José",
+    width: 85,
+    height: 85,
   },
   {
     image: `${process.env.BASE_PATH || ""}/imgs/hospitals/santamargarita.webp`,
     title: "Santa Margarita",
+    width: 85,
+    height: 85,
   },
   {
     image: `${process.env.BASE_PATH || ""}/imgs/hospitals/santamaria.webp`,
     title: "Santa María",
+    width: 85,
+    height: 85,
   },
 ];
 
@@ -44,15 +60,16 @@ export default function Hospitals() {
       <p className="text-primary text-md lg:text-lg">
         Atención de calidad, siempre cerca de ti.
       </p>
-      <div className="flex flex-wrap md:flex-nowrap -m-2 justify-center  items-center gap-8 mt-8">
+      <div className="flex flex-wrap md:flex-nowrap -m-2 justify-center items-center gap-8 mt-8">
         {LOGOS.map((item) => (
-          <div className="w-28 md:w-full p-2" key={item.title}>
-            <img
-              src={item.image}
-              alt={item.title}
-              className="w-auto"
-              height={85}
-            />
+          <div className="w-28 md:w-full p-2 h-24 text-center" key={item.title}
+            style={{
+              background: `url(${item.image})`,
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'contain'
+            }}
+          >
           </div>
         ))}
       </div>
