@@ -29,7 +29,7 @@ export default function Hero() {
               padecimientos del cerebro y columna
             </h2>
             <p className="m-0 italic text-center md:text-left text-sm md:text-md text-white border-t-2 mt-2 pt-2">
-              <b>CÉDULA</b> XXXX <b>ESP.</b> 12225523
+              <b>CÉDULA</b> 7712889 11720504
             </p>
           </div>
           <p className="leading-tight text-center md:text-left text-white">
