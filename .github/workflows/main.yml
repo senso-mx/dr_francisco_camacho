@@ -20,7 +20,7 @@ jobs:
     - name: Export Project
       run: |
         npm install
-        NODE_ENV=production BASE_PATH='' npm run build
+        NODE_ENV=production BASE_PATH=/neurocirujano-en-guadalajara npm run build
 
     - name: List output files
       run: ls
@@ -39,4 +39,4 @@ jobs:
         username: ${{ secrets.PROD_USER }}
         password: ${{ secrets.PROD_PASS }}
         local-dir: out/ # This folder is NOT going to upload by default unless you add it to .git-ftp-include
-        server-dir: ./
+        server-dir: ./ # FTP User already has the base folder in the correct path
