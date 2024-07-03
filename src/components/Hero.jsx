@@ -2,37 +2,79 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section
-      className="flex justify-end items-end h-full w-full bg-[left_-300px_top] md:bg-center relative bg-gray-300 md:bg-white"
-      style={{
-        backgroundImage: `url(${process.env.BASE_PATH || ""}/imgs/herobg.webp)`,
-        overlay: "auto",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
-    >
-      <div className="flex flex-row items-center min-h-full py-10 w-full lg:w-1/2 bg-neutral-900/50 lg:bg-neutral-900/90">
-        <div className="prose-lg flex flex-col justify-center items-center md:items-start gap-4 my-8 mb-16 px-0 lg:pl-8 lg:pr-12 px-4 w-full">
-          <Image
-            src={`${process.env.BASE_PATH || ""}/imgs/emblema.svg`}
-            alt="logo"
-            width={92}
-            height={182}
-          />
-          <div className="flex flex-col gap-0">
-            <h1 className="text-primary font-bold pb-6 m-0 text-center md:text-left text-4xl md:text-5xl">
+    <section className="flex justify-end items-end h-full w-full relative">
+      <div className="section-container flex flex-col md:flex-row items-center min-h-full py-10 w-full gap-8 md:gap-0">
+        <div className="prose-lg flex flex-col justify-center items-center md:items-start gap-2 w-full">
+          <div className="flex flex-row justify-center items-center md:justify-start gap-8">
+            <Image
+              className="m-0"
+              src={`${process.env.BASE_PATH || ""}/imgs/emblema.svg`}
+              alt="logo"
+              width={80}
+              height={182}
+            />
+
+            <h1 className="text-primary font-bold pb-6 m-0 text-left text-3xl md:text-5xl w-100">
               Dr. Francisco Camacho
             </h1>
-            <h2 className="m-0 text-center md:text-left text-xl md:text-2xl text-white">
-              Neurocirujano especialista en
-              <br />
-              padecimientos del cerebro y columna
+          </div>
+          <div className="flex flex-col gap-0">
+            <h2 className="m-0 text-center md:text-left text-xl md:text-2xl mt-4">
+              Neurocirujano especialista en cerebro y columna
             </h2>
-            <p className="m-0 italic text-center md:text-left text-sm md:text-md text-white border-t-2 mt-2 pt-2">
+            <p className="m-0 italic text-center md:text-left text-sm md:text-md border-t-2 mt-2 pt-2">
               <b>CÉDULA</b> 7712889 11720504
             </p>
           </div>
-          <p className="leading-tight text-center md:text-left text-white">
+
+          <div className="flex flex-col gap-2 md:gap-4 mt-6">
+            <div className="flex flex-row justify-start items-center gap-8">
+              <div style={{ width: "35px" }}>
+                <Image
+                  className="m-0"
+                  src={`${process.env.BASE_PATH || ""}/imgs/hernias.svg`}
+                  alt="Fracturas vertebrales"
+                  width={25}
+                  height={30}
+                />
+              </div>
+
+              <p className="grow font-semibold m-0 text-center md:text-left">
+                Hernias de disco
+              </p>
+            </div>
+            <div className="flex flex-row justify-start items-center gap-8">
+              <Image
+                className="m-0"
+                src={`${
+                  process.env.BASE_PATH || ""
+                }/imgs/tumorescerebrales.svg`}
+                alt="Tumores cerebrales"
+                width={35}
+                height={40}
+              />
+
+              <p className="grow font-semibold m-0 text-center md:text-left">
+                Tumores cerebrales
+              </p>
+            </div>
+            <div className="flex flex-row justify-start items-center gap-8">
+              <div style={{ width: "35px" }}>
+                <Image
+                  className="m-0"
+                  src={`${process.env.BASE_PATH || ""}/imgs/fracturas.svg`}
+                  alt="Fracturas vertebrales"
+                  width={25}
+                  height={30}
+                />
+              </div>
+
+              <p className="font-semibold m-0 text-center md:text-left">
+                Fracturas vertebrales
+              </p>
+            </div>
+          </div>
+          <p className="leading-tight text-center md:text-left text-sm md:text-regular">
             Abordamos problemas complejos neurológicos y de columna con
             tratamientos de vanguardia, procedimientos de mínima invasión y un
             equipo especializado para ayudar a recuperar la calidad de vida.
@@ -55,6 +97,15 @@ export default function Hero() {
               Llamada
             </a>
           </div>
+        </div>
+        <div className="w-full">
+          <Image
+            className="rounded-lg mx-auto"
+            src={`${process.env.BASE_PATH || ""}/imgs/herobg.webp`}
+            alt="Dr. Francisco Camacho"
+            width={500}
+            height={400}
+          />
         </div>
       </div>
       <a

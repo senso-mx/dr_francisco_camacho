@@ -41,13 +41,12 @@ const SURGERIES = [
 
 export default function Surgeries() {
   return (
-    <section className="section-container -mt-16 z-10">
+    <section className="section-container z-10">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {SURGERIES.map((surgery) => (
           <div
             key={surgery.title}
-            className="flex flex-row items-center justify-start gap-4 p-4 text-center border-l-16 border-primary bg-neutral-900"
-            style={{ borderLeftWidth: '16px'}}
+            className="flex flex-row items-center justify-center md:justify-start gap-4 p-4 text-center"
           >
             <Image
               className=""
@@ -57,7 +56,7 @@ export default function Surgeries() {
               height={35}
             />
 
-            <div className="text-white text-md font-semibold">
+            <div className="text-md font-semibold">
               {surgery.title}
             </div>
           </div>

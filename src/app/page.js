@@ -23,10 +23,10 @@ export default function Home() {
           </>
         }
       />
+      <Reviews />
       <About />
       <Hospitals />
       <PaymentMethods />
-      <Reviews />
       <FAQs />
       <CTABanner
         bgImage={ `${process.env.BASE_PATH || ""}/imgs/cta2bg.webp`}

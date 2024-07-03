@@ -78,15 +78,26 @@
 }
 
 span.swiper-pagination-bullet {
-  height: 16px;
-  width: 16px;
+  height: 10px;
+  width: 10px;
   background-color: #14145e !important;
   opacity: 1;
 }
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: #19d6cb !important;
+  background-color: #0062FE !important;
 }
 
 :host >>> .swiper-pagination {
   pointer-events: all !important;
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -5px !important;
+}
+
+.swiper-slide .swiper-slide-active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -57,7 +57,7 @@ export default function About() {
           </div>
           <div className="w-full lg:w-1/2 p-8">
             <Image
-              className="mx-auto"
+              className="mx-auto rounded-3xl"
               src={`${process.env.BASE_PATH || ""}/imgs/about.webp`}
               alt="Dr. Francisco Camacho"
               width={592}
