@@ -8,7 +8,7 @@ export default function Hero() {
           <div className="flex flex-row justify-center items-center md:justify-start gap-8">
             <Image
               className="m-0"
-              src={`${process.env.BASE_PATH || ""}/imgs/emblema.svg`}
+              src={`${process.env.BASE_PATH || ""}/imgs/logo.svg`}
               alt="logo"
               width={80}
               height={182}
@@ -75,9 +75,8 @@ export default function Hero() {
             </div>
           </div>
           <p className="leading-tight text-center md:text-left text-sm md:text-regular">
-            Abordamos problemas complejos neurológicos y de columna con
-            tratamientos de vanguardia, procedimientos de mínima invasión y un
-            equipo especializado para ayudar a recuperar la calidad de vida.
+            Tratamiento a problemas complejos neurológicos y de columna con
+            procedimientos de mínima invasión.
           </p>
           <div class="join">
             <a
