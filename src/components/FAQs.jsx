@@ -22,7 +22,7 @@ const faqs = [
   {
     question: "¿Cuánto tiempo tarda la recuperación?",
     answer:
-      "En general despuéss de una cirugía de columna se mantiene hospitalizado 2 días y se retiran puntos a las 2 semana.<br/><br/>En una cirugía de craneo la hospitalización dura de 3 a 5 días y los puntos se retiran a las 2 semanas.",
+      "En general después de una cirugía de columna se mantiene hospitalizado 2 días y se retiran puntos a las 2 semana.<br/><br/>En una cirugía de craneo la hospitalización dura de 3 a 5 días y los puntos se retiran a las 2 semanas.",
   },
 ];
 
