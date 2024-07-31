@@ -3,58 +3,60 @@
 import { useState } from "react";
 import Image from "next/image";
 
+const IMAGE_PREFIX = process.env.BASE_PATH || "/neurocirujano-en-guadalajara";
+
 const SURGERIES = [
   {
     title: "Hernias de disco",
-    img: `${process.env.BASE_PATH || ""}/imgs/hernias.svg`,
+    img: `${IMAGE_PREFIX}/imgs/hernias.svg`,
     content:
       "Padecimiento en que un fragmento del disco intervertebral comprime la medula espinal o raíces nerviosas provocando dolor, entumecimiento, hormigueo, perdida de fuerza, el tratamiento de mínima invasión consiste en retirar el fragmento de disco y descomprimir la medula espinal y raíces nerviosas.",
   },
   {
     title: "Fracturas vertebrales",
-    img: `${process.env.BASE_PATH || ""}/imgs/fracturas.svg`,
+    img: `${IMAGE_PREFIX}/imgs/fracturas.svg`,
     content:
       "Padecimiento en el que se acumula liquido dentro del cerebro provocando dolor de cabeza, nausea, vomito, crisis convulsivas, el tratamiento consiste en liberar la presión de liquido",
   },
   {
     title: "Tumores espinales",
-    img: `${process.env.BASE_PATH || ""}/imgs/tumores.svg`,
+    img: `${IMAGE_PREFIX}/imgs/tumores.svg`,
     content:
       "Padecimiento en el que crece de manera descontrolada un conjunto de células dando origen a un tumor, produce dolor de cabeza, náuseas, vómito, alteración mental,",
   },
   {
     title: "Hidrocefalia",
-    img: `${process.env.BASE_PATH || ""}/imgs/hidrocefalia.svg`,
+    img: `${IMAGE_PREFIX}/imgs/hidrocefalia.svg`,
     content:
       "Padecimiento originado por accidentes o caídas en el que alguna estructura de la vértebra se rompe ocasionando dolor severo, deformidad en la columna, pérdida de fuerza en las extremidades el tratamiento puede ser manejo medico o quirúrgico",
   },
   {
     title: "Hematomas craneales",
-    img: `${process.env.BASE_PATH || ""}/imgs/hematomas.svg`,
+    img: `${IMAGE_PREFIX}/imgs/hematomas.svg`,
     content:
       "Grupo de padecimientos originados por golpes, caídas o accidentes en el que se acumula sangre dentro del cráneo comprimiendo el cerebro pudiendo ser mortal sin tratamiento el cual consiste en drenar el sangrado y aliviar la presión sobre el cerebro",
   },
   {
     title: "Tumores de hipófisis",
-    img: `${process.env.BASE_PATH || ""}/imgs/hipofisis.svg`,
+    img: `${IMAGE_PREFIX}/imgs/hipofisis.svg`,
     content:
       "Padecimiento en el que una arteria sufre una dilatación la cual tiene una pared delgada y frágil ocasiona dolor de cabeza o caída de un parpado, en caso de ruptura puede sangrar ocasionando dolor de cabeza muy intenso, convulsiones y alteración del estado mental, su tratamiento es con microcirugía.",
   },
   {
     title: "Tumores cerebrales",
-    img: `${process.env.BASE_PATH || ""}/imgs/tumorescerebrales.svg`,
+    img: `${IMAGE_PREFIX}/imgs/tumorescerebrales.svg`,
     content:
       "Padecimiento en el cual crecen células anormales de manera descontrolada comprimiendo los nervios y la médula espinal provocando disminución de fuerza, entumecimiento y hormigueo, el tratamiento es con microcirugía.",
   },
   {
     title: "Aneurismas cerebrales",
-    img: `${process.env.BASE_PATH || ""}/imgs/aneurismas.svg`,
+    img: `${IMAGE_PREFIX}/imgs/aneurismas.svg`,
     content:
       "Son tumores que pueden provocar alteraciones hormonales y pérdida de la visión, su tratamiento es a través de cirugia endoscopia vía nasal",
   },
   {
     title: "Endoscopia cerebral",
-    img: `${process.env.BASE_PATH || ""}/imgs/endoscopia.svg`,
+    img: `${IMAGE_PREFIX}/imgs/endoscopia.svg`,
     content:
       "Técnica quirúrgica de mínima invasión que se utiliza para tratar la hidrocefalia, tomar biopsias, extirpar cisticercos, drenar hemorragias, entre otros.",
   },
