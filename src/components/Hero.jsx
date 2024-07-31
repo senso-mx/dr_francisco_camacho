@@ -78,7 +78,7 @@ export default function Hero() {
             Tratamiento a problemas complejos neurológicos y de columna con
             procedimientos de mínima invasión.
           </p>
-          <div class="join">
+          <div className="join">
             <a
               role="button"
               className="btn btn-primary btn-lg join-item rounded-none px-12"

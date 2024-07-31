@@ -53,7 +53,7 @@ const LOGOS = [
 
 export default function Hospitals() {
   return (
-    <section className="section-container text-center mb-8">
+    <section className="section-container text-center mt-12">
       <p className="font-bold text-2xl">
         Cirugías seguras y equipo especializado en los mejores Hospitales
       </p>
@@ -75,7 +75,7 @@ export default function Hospitals() {
       </div>
 
       <div className="flex w-full items-center justify-center mt-12">
-        <div class="join">
+        <div className="join">
           <a
             role="button"
             className="btn btn-primary btn-lg px-12 join-item rounded-none"

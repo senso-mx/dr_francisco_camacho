@@ -84,14 +84,17 @@ span.swiper-pagination-bullet {
   opacity: 1;
 }
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: #0062FE !important;
+  background-color: #0062fe !important;
 }
 
 :host >>> .swiper-pagination {
   pointer-events: all !important;
 }
 
-.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: -5px !important;
 }
 
@@ -100,4 +103,14 @@ span.swiper-pagination-bullet {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.card-showcase {
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .card-showcase {
+    height: 350px;
+  }
 }

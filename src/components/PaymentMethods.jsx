@@ -23,7 +23,7 @@ const METHODS = [
 
 export default function PaymentMethods() {
   return (
-    <section className="section-container bg-neutral-900 p-16">
+    <section className="section-container bg-neutral-900 p-16 mb-12">
       <p className="text-2xl text-white text-center mb-12 font-bold">Opciones de pago disponibles</p>
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4">
         {METHODS.map((surgery) => (

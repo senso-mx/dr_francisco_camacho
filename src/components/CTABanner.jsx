@@ -15,7 +15,7 @@ export default function CTABanner({ content, bgImage }) {
           {content}
         </article>
         <div className="flex flex-col w-full items-center md:items-end">
-          <div class="join">
+          <div className="join">
             <a
               role="button"
               className="btn btn-primary btn-md lg:btn-lg px-12 join-item rounded-none"
