@@ -16,19 +16,19 @@ const SURGERIES = [
     title: "Fracturas vertebrales",
     img: `${IMAGE_PREFIX}/imgs/fracturas.svg`,
     content:
-      "Padecimiento en el que se acumula liquido dentro del cerebro provocando dolor de cabeza, nausea, vomito, crisis convulsivas, el tratamiento consiste en liberar la presión de liquido",
+      "Padecimiento originado por accidentes o caídas en el que alguna estructura de la vértebra se rompe ocasionando dolor severo, deformidad en la columna, pérdida de fuerza en las extremidades el tratamiento puede ser manejo medico o quirúrgico.",
   },
   {
     title: "Tumores espinales",
     img: `${IMAGE_PREFIX}/imgs/tumores.svg`,
     content:
-      "Padecimiento en el que crece de manera descontrolada un conjunto de células dando origen a un tumor, produce dolor de cabeza, náuseas, vómito, alteración mental,",
+      "Padecimiento en el cual crecen células anormales de manera descontrolada comprimiendo los nervios y la médula espinal provocando disminución de fuerza, entumecimiento y hormigueo, el tratamiento es con microcirugía.",
   },
   {
     title: "Hidrocefalia",
     img: `${IMAGE_PREFIX}/imgs/hidrocefalia.svg`,
     content:
-      "Padecimiento originado por accidentes o caídas en el que alguna estructura de la vértebra se rompe ocasionando dolor severo, deformidad en la columna, pérdida de fuerza en las extremidades el tratamiento puede ser manejo medico o quirúrgico",
+      "Padecimiento en el que se acumula liquido dentro del cerebro provocando dolor de cabeza, nausea, vomito, crisis convulsivas, el tratamiento consiste en liberar la presión de liquido.",
   },
   {
     title: "Hematomas craneales",
@@ -40,19 +40,19 @@ const SURGERIES = [
     title: "Tumores de hipófisis",
     img: `${IMAGE_PREFIX}/imgs/hipofisis.svg`,
     content:
-      "Padecimiento en el que una arteria sufre una dilatación la cual tiene una pared delgada y frágil ocasiona dolor de cabeza o caída de un parpado, en caso de ruptura puede sangrar ocasionando dolor de cabeza muy intenso, convulsiones y alteración del estado mental, su tratamiento es con microcirugía.",
+      "Son tumores que pueden provocar alteraciones hormonales y pérdida de la visión, su tratamiento es a través de cirugía endoscopia vía nasal.",
   },
   {
     title: "Tumores cerebrales",
     img: `${IMAGE_PREFIX}/imgs/tumorescerebrales.svg`,
     content:
-      "Padecimiento en el cual crecen células anormales de manera descontrolada comprimiendo los nervios y la médula espinal provocando disminución de fuerza, entumecimiento y hormigueo, el tratamiento es con microcirugía.",
+      "Padecimiento en el que crece de manera descontrolada un conjunto de células dando origen a un tumor, produce dolor de cabeza, náuseas, vómito, alteración mental, convulsiones, el tratamiento consiste en realizar una biopsia o extirpar la lesión.",
   },
   {
     title: "Aneurismas cerebrales",
     img: `${IMAGE_PREFIX}/imgs/aneurismas.svg`,
     content:
-      "Son tumores que pueden provocar alteraciones hormonales y pérdida de la visión, su tratamiento es a través de cirugia endoscopia vía nasal",
+      "Padecimiento en el que una arteria sufre una dilatación la cual tiene una pared delgada y frágil ocasiona dolor de cabeza o caída de un parpado, en caso de ruptura puede sangrar ocasionando dolor de cabeza muy intenso, convulsiones y alteración del estado mental, su tratamiento es con microcirugía.",
   },
   {
     title: "Endoscopia cerebral",
