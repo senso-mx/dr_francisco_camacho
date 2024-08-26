@@ -9,7 +9,7 @@ const PROMOS = [
   },
   {
     title: "Vertebroplastia",
-    price: "$90,000 MXN",
+    price: "$85,000 MXN",
     description: "Incluye hospital, honorarios y materiales",
     walink: "https://api.whatsapp.com/send?phone=+523311960990&text=%C2%A1Hola%21%20quiero%20agendar%20una%20cita%20de%20valoraci%C3%B3n%20para%20la%20promoci%C3%B3n%20de%20Vertebroplastia%20%281%20Nivel%29%20con%20el%20Dr.%20Francisco%20Camacho"
   },
