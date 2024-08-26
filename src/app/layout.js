@@ -30,6 +30,11 @@ export default function RootLayout({ children }) {
         />
         <link
           rel="preload"
+          href={`${process.env.BASE_PATH || ""}/imgs/promos-bg.webp`}
+          as="image"
+        />
+        <link
+          rel="preload"
           href={`${process.env.BASE_PATH || ""}/imgs/about.webp`}
           as="image"
         />

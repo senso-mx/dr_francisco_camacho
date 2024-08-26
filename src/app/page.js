@@ -7,12 +7,15 @@ import Hospitals from "@/components/Hospitals";
 import FAQs from "@/components/FAQs";
 import Contact from "@/components/Contact";
 import Reviews from "@/components/Reviews";
+import Promos from "@/components/Promos";
 
 export default function Home() {
   return (
     <main className="w-full flex flex-col gap-4">
       <Hero />
       <Services />
+      <Promos />
+      <Reviews />
       <CTABanner
         bgImage={ `${process.env.BASE_PATH || ""}/imgs/ctabg.webp`}
         content={
@@ -23,7 +26,6 @@ export default function Home() {
           </>
         }
       />
-      <Reviews />
       <FAQs />
       <PaymentMethods />
       <About />
